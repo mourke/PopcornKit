@@ -40,14 +40,16 @@
     self = [super init];
     
     if (self) {
-        _posterString = dictionary[@"poster"];
-        _fanartString = dictionary[@"fanart"];
-        _bannerString = dictionary[@"banner"];
+        NSString *posterString = dictionary[@"poster"];
+        NSString *fanartString = dictionary[@"fanart"];
+        NSString *bannerString = dictionary[@"banner"];
         
-        return self;
+        if ([posterString isKindOfClass:NSString.class]) _posterString = posterString;
+        if ([fanartString isKindOfClass:NSString.class]) _fanartString = fanartString;
+        if ([bannerString isKindOfClass:NSString.class]) _bannerString = bannerString;
     }
     
-    return nil;
+    return self;
 }
 
 - (NSURL *)posterImageForWidth:(NSInteger)width {

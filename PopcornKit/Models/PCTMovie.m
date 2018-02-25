@@ -61,7 +61,8 @@
             _genres != nil &&
             _images != nil)
         {
-            _trailerURL = [NSURL URLWithString:dictionary[@"trailer"]];
+            NSString *trailerString = dictionary[@"trailer"];
+            _trailerURL = [NSURL URLWithString:trailerString];
             
             NSMutableArray *torrents = [NSMutableArray array];
             

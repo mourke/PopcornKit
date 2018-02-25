@@ -41,11 +41,16 @@
         
         NSDateComponents *components = [NSDateComponents new];
         
-        if (_status == PCTAirStatusReturning) {
+        NSString *airTimeString = dictionary[@"air_time"];
+        NSString *airDayString = dictionary[@"air_day"];
+        
+        if (_status == PCTAirStatusReturning &&
+            [airTimeString isKindOfClass:NSString.class] &&
+            [airDayString isKindOfClass:NSString.class]) {
             NSArray *days = [[NSDateFormatter new] weekdaySymbols];
-            NSArray<NSString *> *timeStringComponents = [dictionary[@"air_time"] componentsSeparatedByString:@":"];
+            NSArray<NSString *> *timeStringComponents = [airTimeString componentsSeparatedByString:@":"];
             
-            components.day = [days indexOfObject:dictionary[@"air_day"]];
+            components.day = [days indexOfObject:airDayString];
             components.hour = [[timeStringComponents firstObject] integerValue];
             components.minute = [[timeStringComponents lastObject] integerValue];
         }
