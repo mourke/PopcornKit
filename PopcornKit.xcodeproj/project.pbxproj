@@ -1,0 +1,1268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DAEEBD22042C91900F62548 /* PopcornKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEBD02042C91900F62548 /* PopcornKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEBFF2042C9FB00F62548 /* PopcornKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEBD02042C91900F62548 /* PopcornKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC002042C9FB00F62548 /* PopcornKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEBD02042C91900F62548 /* PopcornKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC012042C9FC00F62548 /* PopcornKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEBD02042C91900F62548 /* PopcornKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC062042CA8D00F62548 /* PCTMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC042042CA8D00F62548 /* PCTMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC072042CA8D00F62548 /* PCTMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC042042CA8D00F62548 /* PCTMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC082042CA8D00F62548 /* PCTMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC042042CA8D00F62548 /* PCTMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC092042CA8D00F62548 /* PCTMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC042042CA8D00F62548 /* PCTMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC0A2042CA8D00F62548 /* PCTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC052042CA8D00F62548 /* PCTMovie.m */; };
+		4DAEEC0B2042CA8D00F62548 /* PCTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC052042CA8D00F62548 /* PCTMovie.m */; };
+		4DAEEC0C2042CA8D00F62548 /* PCTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC052042CA8D00F62548 /* PCTMovie.m */; };
+		4DAEEC0D2042CA8D00F62548 /* PCTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC052042CA8D00F62548 /* PCTMovie.m */; };
+		4DAEEC102042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC112042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC122042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC132042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC142042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
+		4DAEEC152042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
+		4DAEEC162042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
+		4DAEEC172042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
+		4DAEEC1A2042CEDA00F62548 /* PCTImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC182042CEDA00F62548 /* PCTImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC1B2042CEDA00F62548 /* PCTImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC182042CEDA00F62548 /* PCTImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC1C2042CEDA00F62548 /* PCTImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC182042CEDA00F62548 /* PCTImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC1D2042CEDA00F62548 /* PCTImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC182042CEDA00F62548 /* PCTImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC1E2042CEDA00F62548 /* PCTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC192042CEDA00F62548 /* PCTImages.m */; };
+		4DAEEC1F2042CEDA00F62548 /* PCTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC192042CEDA00F62548 /* PCTImages.m */; };
+		4DAEEC202042CEDA00F62548 /* PCTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC192042CEDA00F62548 /* PCTImages.m */; };
+		4DAEEC212042CEDA00F62548 /* PCTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC192042CEDA00F62548 /* PCTImages.m */; };
+		4DAEEC242042D11100F62548 /* PCTTorrent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC222042D11100F62548 /* PCTTorrent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC252042D11100F62548 /* PCTTorrent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC222042D11100F62548 /* PCTTorrent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC262042D11100F62548 /* PCTTorrent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC222042D11100F62548 /* PCTTorrent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC272042D11100F62548 /* PCTTorrent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC222042D11100F62548 /* PCTTorrent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC282042D11100F62548 /* PCTTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC232042D11100F62548 /* PCTTorrent.m */; };
+		4DAEEC292042D11100F62548 /* PCTTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC232042D11100F62548 /* PCTTorrent.m */; };
+		4DAEEC2A2042D11100F62548 /* PCTTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC232042D11100F62548 /* PCTTorrent.m */; };
+		4DAEEC2B2042D11100F62548 /* PCTTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC232042D11100F62548 /* PCTTorrent.m */; };
+		4DAEEC2E2042D29700F62548 /* PCTObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC2D2042D29700F62548 /* PCTObjectProtocol.h */; };
+		4DAEEC2F2042D29700F62548 /* PCTObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC2D2042D29700F62548 /* PCTObjectProtocol.h */; };
+		4DAEEC302042D29700F62548 /* PCTObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC2D2042D29700F62548 /* PCTObjectProtocol.h */; };
+		4DAEEC312042D29700F62548 /* PCTObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC2D2042D29700F62548 /* PCTObjectProtocol.h */; };
+		4DAEEC342042D2FC00F62548 /* PCTEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC322042D2FC00F62548 /* PCTEndpoints.h */; };
+		4DAEEC352042D2FC00F62548 /* PCTEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC322042D2FC00F62548 /* PCTEndpoints.h */; };
+		4DAEEC362042D2FC00F62548 /* PCTEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC322042D2FC00F62548 /* PCTEndpoints.h */; };
+		4DAEEC372042D2FC00F62548 /* PCTEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC322042D2FC00F62548 /* PCTEndpoints.h */; };
+		4DAEEC382042D2FC00F62548 /* PCTEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC332042D2FC00F62548 /* PCTEndpoints.m */; };
+		4DAEEC392042D2FC00F62548 /* PCTEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC332042D2FC00F62548 /* PCTEndpoints.m */; };
+		4DAEEC3A2042D2FC00F62548 /* PCTEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC332042D2FC00F62548 /* PCTEndpoints.m */; };
+		4DAEEC3B2042D2FC00F62548 /* PCTEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC332042D2FC00F62548 /* PCTEndpoints.m */; };
+		4DAEEC3E2042DCCB00F62548 /* PCTTorrentQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC3C2042DCCB00F62548 /* PCTTorrentQuality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC3F2042DCCB00F62548 /* PCTTorrentQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC3C2042DCCB00F62548 /* PCTTorrentQuality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC402042DCCB00F62548 /* PCTTorrentQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC3C2042DCCB00F62548 /* PCTTorrentQuality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC412042DCCB00F62548 /* PCTTorrentQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC3C2042DCCB00F62548 /* PCTTorrentQuality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC422042DCCB00F62548 /* PCTTorrentQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC3D2042DCCB00F62548 /* PCTTorrentQuality.m */; };
+		4DAEEC432042DCCB00F62548 /* PCTTorrentQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC3D2042DCCB00F62548 /* PCTTorrentQuality.m */; };
+		4DAEEC442042DCCB00F62548 /* PCTTorrentQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC3D2042DCCB00F62548 /* PCTTorrentQuality.m */; };
+		4DAEEC452042DCCB00F62548 /* PCTTorrentQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC3D2042DCCB00F62548 /* PCTTorrentQuality.m */; };
+		4DAEEC482042E46A00F62548 /* PCTShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC462042E46A00F62548 /* PCTShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC492042E46A00F62548 /* PCTShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC462042E46A00F62548 /* PCTShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC4A2042E46A00F62548 /* PCTShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC462042E46A00F62548 /* PCTShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC4B2042E46A00F62548 /* PCTShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC462042E46A00F62548 /* PCTShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC4C2042E46A00F62548 /* PCTShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC472042E46A00F62548 /* PCTShow.m */; };
+		4DAEEC4D2042E46A00F62548 /* PCTShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC472042E46A00F62548 /* PCTShow.m */; };
+		4DAEEC4E2042E46A00F62548 /* PCTShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC472042E46A00F62548 /* PCTShow.m */; };
+		4DAEEC4F2042E46A00F62548 /* PCTShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC472042E46A00F62548 /* PCTShow.m */; };
+		4DAEEC522042E47400F62548 /* PCTEpisode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC502042E47400F62548 /* PCTEpisode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC532042E47400F62548 /* PCTEpisode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC502042E47400F62548 /* PCTEpisode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC542042E47400F62548 /* PCTEpisode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC502042E47400F62548 /* PCTEpisode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC552042E47400F62548 /* PCTEpisode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC502042E47400F62548 /* PCTEpisode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC562042E47400F62548 /* PCTEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC512042E47400F62548 /* PCTEpisode.m */; };
+		4DAEEC572042E47400F62548 /* PCTEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC512042E47400F62548 /* PCTEpisode.m */; };
+		4DAEEC582042E47400F62548 /* PCTEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC512042E47400F62548 /* PCTEpisode.m */; };
+		4DAEEC592042E47400F62548 /* PCTEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC512042E47400F62548 /* PCTEpisode.m */; };
+		4DAEEC5C2042E58100F62548 /* PCTPartialShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC5A2042E58100F62548 /* PCTPartialShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC5D2042E58100F62548 /* PCTPartialShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC5A2042E58100F62548 /* PCTPartialShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC5E2042E58100F62548 /* PCTPartialShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC5A2042E58100F62548 /* PCTPartialShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC5F2042E58100F62548 /* PCTPartialShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC5A2042E58100F62548 /* PCTPartialShow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC602042E58100F62548 /* PCTPartialShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC5B2042E58100F62548 /* PCTPartialShow.m */; };
+		4DAEEC612042E58100F62548 /* PCTPartialShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC5B2042E58100F62548 /* PCTPartialShow.m */; };
+		4DAEEC622042E58100F62548 /* PCTPartialShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC5B2042E58100F62548 /* PCTPartialShow.m */; };
+		4DAEEC632042E58100F62548 /* PCTPartialShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC5B2042E58100F62548 /* PCTPartialShow.m */; };
+		4DAEEC662042E8F400F62548 /* PCTAirInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC642042E8F400F62548 /* PCTAirInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC672042E8F400F62548 /* PCTAirInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC642042E8F400F62548 /* PCTAirInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC682042E8F400F62548 /* PCTAirInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC642042E8F400F62548 /* PCTAirInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC692042E8F400F62548 /* PCTAirInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC642042E8F400F62548 /* PCTAirInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC6A2042E8F400F62548 /* PCTAirInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC652042E8F400F62548 /* PCTAirInformation.m */; };
+		4DAEEC6B2042E8F400F62548 /* PCTAirInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC652042E8F400F62548 /* PCTAirInformation.m */; };
+		4DAEEC6C2042E8F400F62548 /* PCTAirInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC652042E8F400F62548 /* PCTAirInformation.m */; };
+		4DAEEC6D2042E8F400F62548 /* PCTAirInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC652042E8F400F62548 /* PCTAirInformation.m */; };
+		4DAEEC702042E90700F62548 /* PCTAirStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC6E2042E90700F62548 /* PCTAirStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC712042E90700F62548 /* PCTAirStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC6E2042E90700F62548 /* PCTAirStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC722042E90700F62548 /* PCTAirStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC6E2042E90700F62548 /* PCTAirStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC732042E90700F62548 /* PCTAirStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC6E2042E90700F62548 /* PCTAirStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC742042E90700F62548 /* PCTAirStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC6F2042E90700F62548 /* PCTAirStatus.m */; };
+		4DAEEC752042E90700F62548 /* PCTAirStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC6F2042E90700F62548 /* PCTAirStatus.m */; };
+		4DAEEC762042E90700F62548 /* PCTAirStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC6F2042E90700F62548 /* PCTAirStatus.m */; };
+		4DAEEC772042E90700F62548 /* PCTAirStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC6F2042E90700F62548 /* PCTAirStatus.m */; };
+		4DAEEC7F2042F10200F62548 /* PopcornKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC7E2042F10200F62548 /* PopcornKitTests.m */; };
+		4DAEEC812042F10200F62548 /* PopcornKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAEEBCD2042C91900F62548 /* PopcornKit.framework */; };
+		4DAEEC902042F20B00F62548 /* PopcornKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAEEBEA2042C97700F62548 /* PopcornKit.framework */; };
+		4DAEEC962042F22D00F62548 /* PopcornKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC7E2042F10200F62548 /* PopcornKitTests.m */; };
+		4DAEECA02042F24900F62548 /* PopcornKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAEEBF72042C98E00F62548 /* PopcornKit.framework */; };
+		4DAEECA62042F27B00F62548 /* PopcornKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC7E2042F10200F62548 /* PopcornKitTests.m */; };
+		4DAEECAA2042F8C900F62548 /* PCTAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECA82042F8C900F62548 /* PCTAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECAB2042F8C900F62548 /* PCTAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECA82042F8C900F62548 /* PCTAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECAC2042F8C900F62548 /* PCTAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECA82042F8C900F62548 /* PCTAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECAD2042F8C900F62548 /* PCTAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECA82042F8C900F62548 /* PCTAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECAE2042F8C900F62548 /* PCTAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECA92042F8C900F62548 /* PCTAPI.m */; };
+		4DAEECAF2042F8C900F62548 /* PCTAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECA92042F8C900F62548 /* PCTAPI.m */; };
+		4DAEECB02042F8C900F62548 /* PCTAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECA92042F8C900F62548 /* PCTAPI.m */; };
+		4DAEECB12042F8C900F62548 /* PCTAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECA92042F8C900F62548 /* PCTAPI.m */; };
+		4DAEECB42042F99900F62548 /* PCTAPI+Movies.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECB22042F99900F62548 /* PCTAPI+Movies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECB52042F99900F62548 /* PCTAPI+Movies.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECB22042F99900F62548 /* PCTAPI+Movies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECB62042F99900F62548 /* PCTAPI+Movies.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECB22042F99900F62548 /* PCTAPI+Movies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECB72042F99900F62548 /* PCTAPI+Movies.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECB22042F99900F62548 /* PCTAPI+Movies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECB82042F99900F62548 /* PCTAPI+Movies.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECB32042F99900F62548 /* PCTAPI+Movies.m */; };
+		4DAEECB92042F99900F62548 /* PCTAPI+Movies.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECB32042F99900F62548 /* PCTAPI+Movies.m */; };
+		4DAEECBA2042F99900F62548 /* PCTAPI+Movies.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECB32042F99900F62548 /* PCTAPI+Movies.m */; };
+		4DAEECBB2042F99900F62548 /* PCTAPI+Movies.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECB32042F99900F62548 /* PCTAPI+Movies.m */; };
+		4DAEECBE204308B200F62548 /* PCTAPI+Shows.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECBC204308B200F62548 /* PCTAPI+Shows.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECBF204308B200F62548 /* PCTAPI+Shows.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECBC204308B200F62548 /* PCTAPI+Shows.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECC0204308B200F62548 /* PCTAPI+Shows.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECBC204308B200F62548 /* PCTAPI+Shows.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECC1204308B200F62548 /* PCTAPI+Shows.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEECBC204308B200F62548 /* PCTAPI+Shows.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEECC2204308B200F62548 /* PCTAPI+Shows.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECBD204308B200F62548 /* PCTAPI+Shows.m */; };
+		4DAEECC3204308B200F62548 /* PCTAPI+Shows.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECBD204308B200F62548 /* PCTAPI+Shows.m */; };
+		4DAEECC4204308B200F62548 /* PCTAPI+Shows.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECBD204308B200F62548 /* PCTAPI+Shows.m */; };
+		4DAEECC5204308B200F62548 /* PCTAPI+Shows.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEECBD204308B200F62548 /* PCTAPI+Shows.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DAEEC822042F10200F62548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAEEBC42042C91900F62548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAEEBCC2042C91900F62548;
+			remoteInfo = "PopcornKit iOS";
+		};
+		4DAEEC912042F20B00F62548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAEEBC42042C91900F62548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAEEBE92042C97700F62548;
+			remoteInfo = "PopcornKit tvOS";
+		};
+		4DAEECA12042F24900F62548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAEEBC42042C91900F62548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAEEBF62042C98E00F62548;
+			remoteInfo = "PopcornKit macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DAEEBCD2042C91900F62548 /* PopcornKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEEBD02042C91900F62548 /* PopcornKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopcornKit.h; sourceTree = "<group>"; };
+		4DAEEBD12042C91900F62548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAEEBDD2042C96A00F62548 /* PopcornKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEEBEA2042C97700F62548 /* PopcornKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEEBF72042C98E00F62548 /* PopcornKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEEC042042CA8D00F62548 /* PCTMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTMovie.h; sourceTree = "<group>"; };
+		4DAEEC052042CA8D00F62548 /* PCTMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTMovie.m; sourceTree = "<group>"; };
+		4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTMPAARating.h; sourceTree = "<group>"; };
+		4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTMPAARating.m; sourceTree = "<group>"; };
+		4DAEEC182042CEDA00F62548 /* PCTImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTImages.h; sourceTree = "<group>"; };
+		4DAEEC192042CEDA00F62548 /* PCTImages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTImages.m; sourceTree = "<group>"; };
+		4DAEEC222042D11100F62548 /* PCTTorrent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTTorrent.h; sourceTree = "<group>"; };
+		4DAEEC232042D11100F62548 /* PCTTorrent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTTorrent.m; sourceTree = "<group>"; };
+		4DAEEC2D2042D29700F62548 /* PCTObjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTObjectProtocol.h; sourceTree = "<group>"; };
+		4DAEEC322042D2FC00F62548 /* PCTEndpoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTEndpoints.h; sourceTree = "<group>"; };
+		4DAEEC332042D2FC00F62548 /* PCTEndpoints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTEndpoints.m; sourceTree = "<group>"; };
+		4DAEEC3C2042DCCB00F62548 /* PCTTorrentQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTTorrentQuality.h; sourceTree = "<group>"; };
+		4DAEEC3D2042DCCB00F62548 /* PCTTorrentQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTTorrentQuality.m; sourceTree = "<group>"; };
+		4DAEEC462042E46A00F62548 /* PCTShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTShow.h; sourceTree = "<group>"; };
+		4DAEEC472042E46A00F62548 /* PCTShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTShow.m; sourceTree = "<group>"; };
+		4DAEEC502042E47400F62548 /* PCTEpisode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTEpisode.h; sourceTree = "<group>"; };
+		4DAEEC512042E47400F62548 /* PCTEpisode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTEpisode.m; sourceTree = "<group>"; };
+		4DAEEC5A2042E58100F62548 /* PCTPartialShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTPartialShow.h; sourceTree = "<group>"; };
+		4DAEEC5B2042E58100F62548 /* PCTPartialShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTPartialShow.m; sourceTree = "<group>"; };
+		4DAEEC642042E8F400F62548 /* PCTAirInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTAirInformation.h; sourceTree = "<group>"; };
+		4DAEEC652042E8F400F62548 /* PCTAirInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTAirInformation.m; sourceTree = "<group>"; };
+		4DAEEC6E2042E90700F62548 /* PCTAirStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTAirStatus.h; sourceTree = "<group>"; };
+		4DAEEC6F2042E90700F62548 /* PCTAirStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTAirStatus.m; sourceTree = "<group>"; };
+		4DAEEC7C2042F10200F62548 /* PopcornKit iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopcornKit iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEEC7E2042F10200F62548 /* PopcornKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopcornKitTests.m; sourceTree = "<group>"; };
+		4DAEEC802042F10200F62548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAEEC8B2042F20B00F62548 /* PopcornKit tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopcornKit tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEEC9B2042F24900F62548 /* PopcornKit macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopcornKit macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEECA82042F8C900F62548 /* PCTAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTAPI.h; sourceTree = "<group>"; };
+		4DAEECA92042F8C900F62548 /* PCTAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTAPI.m; sourceTree = "<group>"; };
+		4DAEECB22042F99900F62548 /* PCTAPI+Movies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCTAPI+Movies.h"; sourceTree = "<group>"; };
+		4DAEECB32042F99900F62548 /* PCTAPI+Movies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PCTAPI+Movies.m"; sourceTree = "<group>"; };
+		4DAEECBC204308B200F62548 /* PCTAPI+Shows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCTAPI+Shows.h"; sourceTree = "<group>"; };
+		4DAEECBD204308B200F62548 /* PCTAPI+Shows.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PCTAPI+Shows.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DAEEBC92042C91900F62548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBD92042C96A00F62548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBE62042C97700F62548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBF32042C98E00F62548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC792042F10200F62548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC812042F10200F62548 /* PopcornKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC882042F20B00F62548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC902042F20B00F62548 /* PopcornKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC982042F24900F62548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEECA02042F24900F62548 /* PopcornKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DAEEBC32042C91900F62548 = {
+			isa = PBXGroup;
+			children = (
+				4DAEEC022042CA1600F62548 /* Framework */,
+				4DAEEBCF2042C91900F62548 /* PopcornKit */,
+				4DAEEC7D2042F10200F62548 /* PopcornKitTests */,
+				4DAEEBCE2042C91900F62548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DAEEBCE2042C91900F62548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEEBCD2042C91900F62548 /* PopcornKit.framework */,
+				4DAEEBDD2042C96A00F62548 /* PopcornKit.framework */,
+				4DAEEBEA2042C97700F62548 /* PopcornKit.framework */,
+				4DAEEBF72042C98E00F62548 /* PopcornKit.framework */,
+				4DAEEC7C2042F10200F62548 /* PopcornKit iOS Tests.xctest */,
+				4DAEEC8B2042F20B00F62548 /* PopcornKit tvOS Tests.xctest */,
+				4DAEEC9B2042F24900F62548 /* PopcornKit macOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DAEEBCF2042C91900F62548 /* PopcornKit */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEEC2C2042D24000F62548 /* Private */,
+				4DAEECA72042F8AE00F62548 /* Methods */,
+				4DAEEC032042CA7D00F62548 /* Models */,
+			);
+			path = PopcornKit;
+			sourceTree = "<group>";
+		};
+		4DAEEC022042CA1600F62548 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEEBD02042C91900F62548 /* PopcornKit.h */,
+				4DAEEBD12042C91900F62548 /* Info.plist */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		4DAEEC032042CA7D00F62548 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEEC042042CA8D00F62548 /* PCTMovie.h */,
+				4DAEEC052042CA8D00F62548 /* PCTMovie.m */,
+				4DAEEC5A2042E58100F62548 /* PCTPartialShow.h */,
+				4DAEEC5B2042E58100F62548 /* PCTPartialShow.m */,
+				4DAEEC462042E46A00F62548 /* PCTShow.h */,
+				4DAEEC472042E46A00F62548 /* PCTShow.m */,
+				4DAEEC642042E8F400F62548 /* PCTAirInformation.h */,
+				4DAEEC652042E8F400F62548 /* PCTAirInformation.m */,
+				4DAEEC6E2042E90700F62548 /* PCTAirStatus.h */,
+				4DAEEC6F2042E90700F62548 /* PCTAirStatus.m */,
+				4DAEEC502042E47400F62548 /* PCTEpisode.h */,
+				4DAEEC512042E47400F62548 /* PCTEpisode.m */,
+				4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */,
+				4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */,
+				4DAEEC182042CEDA00F62548 /* PCTImages.h */,
+				4DAEEC192042CEDA00F62548 /* PCTImages.m */,
+				4DAEEC222042D11100F62548 /* PCTTorrent.h */,
+				4DAEEC232042D11100F62548 /* PCTTorrent.m */,
+				4DAEEC3C2042DCCB00F62548 /* PCTTorrentQuality.h */,
+				4DAEEC3D2042DCCB00F62548 /* PCTTorrentQuality.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DAEEC2C2042D24000F62548 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEEC2D2042D29700F62548 /* PCTObjectProtocol.h */,
+				4DAEEC322042D2FC00F62548 /* PCTEndpoints.h */,
+				4DAEEC332042D2FC00F62548 /* PCTEndpoints.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		4DAEEC7D2042F10200F62548 /* PopcornKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEEC7E2042F10200F62548 /* PopcornKitTests.m */,
+				4DAEEC802042F10200F62548 /* Info.plist */,
+			);
+			path = PopcornKitTests;
+			sourceTree = "<group>";
+		};
+		4DAEECA72042F8AE00F62548 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEECA82042F8C900F62548 /* PCTAPI.h */,
+				4DAEECA92042F8C900F62548 /* PCTAPI.m */,
+				4DAEECB22042F99900F62548 /* PCTAPI+Movies.h */,
+				4DAEECB32042F99900F62548 /* PCTAPI+Movies.m */,
+				4DAEECBC204308B200F62548 /* PCTAPI+Shows.h */,
+				4DAEECBD204308B200F62548 /* PCTAPI+Shows.m */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DAEEBCA2042C91900F62548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC102042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEECAA2042F8C900F62548 /* PCTAPI.h in Headers */,
+				4DAEEC482042E46A00F62548 /* PCTShow.h in Headers */,
+				4DAEEC662042E8F400F62548 /* PCTAirInformation.h in Headers */,
+				4DAEECBE204308B200F62548 /* PCTAPI+Shows.h in Headers */,
+				4DAEEC342042D2FC00F62548 /* PCTEndpoints.h in Headers */,
+				4DAEEC2E2042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4DAEEC702042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4DAEECB42042F99900F62548 /* PCTAPI+Movies.h in Headers */,
+				4DAEEBD22042C91900F62548 /* PopcornKit.h in Headers */,
+				4DAEEC5C2042E58100F62548 /* PCTPartialShow.h in Headers */,
+				4DAEEC1A2042CEDA00F62548 /* PCTImages.h in Headers */,
+				4DAEEC242042D11100F62548 /* PCTTorrent.h in Headers */,
+				4DAEEC062042CA8D00F62548 /* PCTMovie.h in Headers */,
+				4DAEEC522042E47400F62548 /* PCTEpisode.h in Headers */,
+				4DAEEC3E2042DCCB00F62548 /* PCTTorrentQuality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBDA2042C96A00F62548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC112042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEECAB2042F8C900F62548 /* PCTAPI.h in Headers */,
+				4DAEEC492042E46A00F62548 /* PCTShow.h in Headers */,
+				4DAEEC672042E8F400F62548 /* PCTAirInformation.h in Headers */,
+				4DAEECBF204308B200F62548 /* PCTAPI+Shows.h in Headers */,
+				4DAEEC352042D2FC00F62548 /* PCTEndpoints.h in Headers */,
+				4DAEEC2F2042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4DAEEC712042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4DAEECB52042F99900F62548 /* PCTAPI+Movies.h in Headers */,
+				4DAEEBFF2042C9FB00F62548 /* PopcornKit.h in Headers */,
+				4DAEEC5D2042E58100F62548 /* PCTPartialShow.h in Headers */,
+				4DAEEC1B2042CEDA00F62548 /* PCTImages.h in Headers */,
+				4DAEEC252042D11100F62548 /* PCTTorrent.h in Headers */,
+				4DAEEC072042CA8D00F62548 /* PCTMovie.h in Headers */,
+				4DAEEC532042E47400F62548 /* PCTEpisode.h in Headers */,
+				4DAEEC3F2042DCCB00F62548 /* PCTTorrentQuality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBE72042C97700F62548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC122042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEECAC2042F8C900F62548 /* PCTAPI.h in Headers */,
+				4DAEEC4A2042E46A00F62548 /* PCTShow.h in Headers */,
+				4DAEEC682042E8F400F62548 /* PCTAirInformation.h in Headers */,
+				4DAEECC0204308B200F62548 /* PCTAPI+Shows.h in Headers */,
+				4DAEEC362042D2FC00F62548 /* PCTEndpoints.h in Headers */,
+				4DAEEC302042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4DAEEC722042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4DAEECB62042F99900F62548 /* PCTAPI+Movies.h in Headers */,
+				4DAEEC002042C9FB00F62548 /* PopcornKit.h in Headers */,
+				4DAEEC5E2042E58100F62548 /* PCTPartialShow.h in Headers */,
+				4DAEEC1C2042CEDA00F62548 /* PCTImages.h in Headers */,
+				4DAEEC262042D11100F62548 /* PCTTorrent.h in Headers */,
+				4DAEEC082042CA8D00F62548 /* PCTMovie.h in Headers */,
+				4DAEEC542042E47400F62548 /* PCTEpisode.h in Headers */,
+				4DAEEC402042DCCB00F62548 /* PCTTorrentQuality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBF42042C98E00F62548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC132042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEECAD2042F8C900F62548 /* PCTAPI.h in Headers */,
+				4DAEEC4B2042E46A00F62548 /* PCTShow.h in Headers */,
+				4DAEEC692042E8F400F62548 /* PCTAirInformation.h in Headers */,
+				4DAEECC1204308B200F62548 /* PCTAPI+Shows.h in Headers */,
+				4DAEEC372042D2FC00F62548 /* PCTEndpoints.h in Headers */,
+				4DAEEC312042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4DAEEC732042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4DAEECB72042F99900F62548 /* PCTAPI+Movies.h in Headers */,
+				4DAEEC012042C9FC00F62548 /* PopcornKit.h in Headers */,
+				4DAEEC5F2042E58100F62548 /* PCTPartialShow.h in Headers */,
+				4DAEEC1D2042CEDA00F62548 /* PCTImages.h in Headers */,
+				4DAEEC272042D11100F62548 /* PCTTorrent.h in Headers */,
+				4DAEEC092042CA8D00F62548 /* PCTMovie.h in Headers */,
+				4DAEEC552042E47400F62548 /* PCTEpisode.h in Headers */,
+				4DAEEC412042DCCB00F62548 /* PCTTorrentQuality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DAEEBCC2042C91900F62548 /* PopcornKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEEBD52042C91900F62548 /* Build configuration list for PBXNativeTarget "PopcornKit iOS" */;
+			buildPhases = (
+				4DAEEBC82042C91900F62548 /* Sources */,
+				4DAEEBC92042C91900F62548 /* Frameworks */,
+				4DAEEBCA2042C91900F62548 /* Headers */,
+				4DAEEBCB2042C91900F62548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PopcornKit iOS";
+			productName = PopcornKit;
+			productReference = 4DAEEBCD2042C91900F62548 /* PopcornKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DAEEBDC2042C96A00F62548 /* PopcornKit watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEEBE22042C96A00F62548 /* Build configuration list for PBXNativeTarget "PopcornKit watchOS" */;
+			buildPhases = (
+				4DAEEBD82042C96A00F62548 /* Sources */,
+				4DAEEBD92042C96A00F62548 /* Frameworks */,
+				4DAEEBDA2042C96A00F62548 /* Headers */,
+				4DAEEBDB2042C96A00F62548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PopcornKit watchOS";
+			productName = "PopcornKit watchOS";
+			productReference = 4DAEEBDD2042C96A00F62548 /* PopcornKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DAEEBE92042C97700F62548 /* PopcornKit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEEBEF2042C97800F62548 /* Build configuration list for PBXNativeTarget "PopcornKit tvOS" */;
+			buildPhases = (
+				4DAEEBE52042C97700F62548 /* Sources */,
+				4DAEEBE62042C97700F62548 /* Frameworks */,
+				4DAEEBE72042C97700F62548 /* Headers */,
+				4DAEEBE82042C97700F62548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PopcornKit tvOS";
+			productName = "PopcornKit tvOS";
+			productReference = 4DAEEBEA2042C97700F62548 /* PopcornKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DAEEBF62042C98E00F62548 /* PopcornKit macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEEBFC2042C98E00F62548 /* Build configuration list for PBXNativeTarget "PopcornKit macOS" */;
+			buildPhases = (
+				4DAEEBF22042C98E00F62548 /* Sources */,
+				4DAEEBF32042C98E00F62548 /* Frameworks */,
+				4DAEEBF42042C98E00F62548 /* Headers */,
+				4DAEEBF52042C98E00F62548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PopcornKit macOS";
+			productName = "PopcornKit macOS";
+			productReference = 4DAEEBF72042C98E00F62548 /* PopcornKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DAEEC7B2042F10200F62548 /* PopcornKit iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEEC842042F10200F62548 /* Build configuration list for PBXNativeTarget "PopcornKit iOS Tests" */;
+			buildPhases = (
+				4DAEEC782042F10200F62548 /* Sources */,
+				4DAEEC792042F10200F62548 /* Frameworks */,
+				4DAEEC7A2042F10200F62548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAEEC832042F10200F62548 /* PBXTargetDependency */,
+			);
+			name = "PopcornKit iOS Tests";
+			productName = PopcornKitTests;
+			productReference = 4DAEEC7C2042F10200F62548 /* PopcornKit iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DAEEC8A2042F20B00F62548 /* PopcornKit tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEEC932042F20B00F62548 /* Build configuration list for PBXNativeTarget "PopcornKit tvOS Tests" */;
+			buildPhases = (
+				4DAEEC872042F20B00F62548 /* Sources */,
+				4DAEEC882042F20B00F62548 /* Frameworks */,
+				4DAEEC892042F20B00F62548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAEEC922042F20B00F62548 /* PBXTargetDependency */,
+			);
+			name = "PopcornKit tvOS Tests";
+			productName = "PopcornKit tvOS Tests";
+			productReference = 4DAEEC8B2042F20B00F62548 /* PopcornKit tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DAEEC9A2042F24900F62548 /* PopcornKit macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEECA32042F24900F62548 /* Build configuration list for PBXNativeTarget "PopcornKit macOS Tests" */;
+			buildPhases = (
+				4DAEEC972042F24900F62548 /* Sources */,
+				4DAEEC982042F24900F62548 /* Frameworks */,
+				4DAEEC992042F24900F62548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAEECA22042F24900F62548 /* PBXTargetDependency */,
+			);
+			name = "PopcornKit macOS Tests";
+			productName = "PopcornKit macOS Tests";
+			productReference = 4DAEEC9B2042F24900F62548 /* PopcornKit macOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DAEEBC42042C91900F62548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PCT;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mark Bourke";
+				TargetAttributes = {
+					4DAEEBCC2042C91900F62548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4DAEEBDC2042C96A00F62548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4DAEEBE92042C97700F62548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4DAEEBF62042C98E00F62548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4DAEEC7B2042F10200F62548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4DAEEC8A2042F20B00F62548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4DAEEC9A2042F24900F62548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DAEEBC72042C91900F62548 /* Build configuration list for PBXProject "PopcornKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DAEEBC32042C91900F62548;
+			productRefGroup = 4DAEEBCE2042C91900F62548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DAEEBCC2042C91900F62548 /* PopcornKit iOS */,
+				4DAEEBDC2042C96A00F62548 /* PopcornKit watchOS */,
+				4DAEEBE92042C97700F62548 /* PopcornKit tvOS */,
+				4DAEEBF62042C98E00F62548 /* PopcornKit macOS */,
+				4DAEEC7B2042F10200F62548 /* PopcornKit iOS Tests */,
+				4DAEEC8A2042F20B00F62548 /* PopcornKit tvOS Tests */,
+				4DAEEC9A2042F24900F62548 /* PopcornKit macOS Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DAEEBCB2042C91900F62548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBDB2042C96A00F62548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBE82042C97700F62548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBF52042C98E00F62548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC7A2042F10200F62548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC892042F20B00F62548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC992042F24900F62548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DAEEBC82042C91900F62548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEECAE2042F8C900F62548 /* PCTAPI.m in Sources */,
+				4DAEEC382042D2FC00F62548 /* PCTEndpoints.m in Sources */,
+				4DAEEC282042D11100F62548 /* PCTTorrent.m in Sources */,
+				4DAEEC4C2042E46A00F62548 /* PCTShow.m in Sources */,
+				4DAEEC6A2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4DAEECC2204308B200F62548 /* PCTAPI+Shows.m in Sources */,
+				4DAEEC422042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
+				4DAEEC0A2042CA8D00F62548 /* PCTMovie.m in Sources */,
+				4DAEEC602042E58100F62548 /* PCTPartialShow.m in Sources */,
+				4DAEEC1E2042CEDA00F62548 /* PCTImages.m in Sources */,
+				4DAEEC142042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC742042E90700F62548 /* PCTAirStatus.m in Sources */,
+				4DAEEC562042E47400F62548 /* PCTEpisode.m in Sources */,
+				4DAEECB82042F99900F62548 /* PCTAPI+Movies.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBD82042C96A00F62548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEECAF2042F8C900F62548 /* PCTAPI.m in Sources */,
+				4DAEEC392042D2FC00F62548 /* PCTEndpoints.m in Sources */,
+				4DAEEC292042D11100F62548 /* PCTTorrent.m in Sources */,
+				4DAEEC4D2042E46A00F62548 /* PCTShow.m in Sources */,
+				4DAEEC6B2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4DAEECC3204308B200F62548 /* PCTAPI+Shows.m in Sources */,
+				4DAEEC432042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
+				4DAEEC0B2042CA8D00F62548 /* PCTMovie.m in Sources */,
+				4DAEEC612042E58100F62548 /* PCTPartialShow.m in Sources */,
+				4DAEEC1F2042CEDA00F62548 /* PCTImages.m in Sources */,
+				4DAEEC152042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC752042E90700F62548 /* PCTAirStatus.m in Sources */,
+				4DAEEC572042E47400F62548 /* PCTEpisode.m in Sources */,
+				4DAEECB92042F99900F62548 /* PCTAPI+Movies.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBE52042C97700F62548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEECB02042F8C900F62548 /* PCTAPI.m in Sources */,
+				4DAEEC3A2042D2FC00F62548 /* PCTEndpoints.m in Sources */,
+				4DAEEC2A2042D11100F62548 /* PCTTorrent.m in Sources */,
+				4DAEEC4E2042E46A00F62548 /* PCTShow.m in Sources */,
+				4DAEEC6C2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4DAEECC4204308B200F62548 /* PCTAPI+Shows.m in Sources */,
+				4DAEEC442042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
+				4DAEEC0C2042CA8D00F62548 /* PCTMovie.m in Sources */,
+				4DAEEC622042E58100F62548 /* PCTPartialShow.m in Sources */,
+				4DAEEC202042CEDA00F62548 /* PCTImages.m in Sources */,
+				4DAEEC162042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC762042E90700F62548 /* PCTAirStatus.m in Sources */,
+				4DAEEC582042E47400F62548 /* PCTEpisode.m in Sources */,
+				4DAEECBA2042F99900F62548 /* PCTAPI+Movies.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEBF22042C98E00F62548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEECB12042F8C900F62548 /* PCTAPI.m in Sources */,
+				4DAEEC3B2042D2FC00F62548 /* PCTEndpoints.m in Sources */,
+				4DAEEC2B2042D11100F62548 /* PCTTorrent.m in Sources */,
+				4DAEEC4F2042E46A00F62548 /* PCTShow.m in Sources */,
+				4DAEEC6D2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4DAEECC5204308B200F62548 /* PCTAPI+Shows.m in Sources */,
+				4DAEEC452042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
+				4DAEEC0D2042CA8D00F62548 /* PCTMovie.m in Sources */,
+				4DAEEC632042E58100F62548 /* PCTPartialShow.m in Sources */,
+				4DAEEC212042CEDA00F62548 /* PCTImages.m in Sources */,
+				4DAEEC172042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC772042E90700F62548 /* PCTAirStatus.m in Sources */,
+				4DAEEC592042E47400F62548 /* PCTEpisode.m in Sources */,
+				4DAEECBB2042F99900F62548 /* PCTAPI+Movies.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC782042F10200F62548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC7F2042F10200F62548 /* PopcornKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC872042F20B00F62548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEEC962042F22D00F62548 /* PopcornKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEEC972042F24900F62548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEECA62042F27B00F62548 /* PopcornKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DAEEC832042F10200F62548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DAEEBCC2042C91900F62548 /* PopcornKit iOS */;
+			targetProxy = 4DAEEC822042F10200F62548 /* PBXContainerItemProxy */;
+		};
+		4DAEEC922042F20B00F62548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DAEEBE92042C97700F62548 /* PopcornKit tvOS */;
+			targetProxy = 4DAEEC912042F20B00F62548 /* PBXContainerItemProxy */;
+		};
+		4DAEECA22042F24900F62548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DAEEBF62042C98E00F62548 /* PopcornKit macOS */;
+			targetProxy = 4DAEECA12042F24900F62548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DAEEBD32042C91900F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Framework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit;
+				PRODUCT_NAME = PopcornKit;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DAEEBD42042C91900F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Framework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit;
+				PRODUCT_NAME = PopcornKit;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DAEEBD62042C91900F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DAEEBD72042C91900F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DAEEBE32042C96A00F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4DAEEBE42042C96A00F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4DAEEBF02042C97800F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		4DAEEBF12042C97800F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		4DAEEBFD2042C98E00F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4DAEEBFE2042C98E00F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4DAEEC852042F10200F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				INFOPLIST_FILE = PopcornKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DAEEC862042F10200F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				INFOPLIST_FILE = PopcornKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DAEEC942042F20B00F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				INFOPLIST_FILE = PopcornKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		4DAEEC952042F20B00F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				INFOPLIST_FILE = PopcornKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		4DAEECA42042F24900F62548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				INFOPLIST_FILE = PopcornKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DAEECA52042F24900F62548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BQBJ6NTPEG;
+				INFOPLIST_FILE = PopcornKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.popcorn.kit.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DAEEBC72042C91900F62548 /* Build configuration list for PBXProject "PopcornKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEEBD32042C91900F62548 /* Debug */,
+				4DAEEBD42042C91900F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEEBD52042C91900F62548 /* Build configuration list for PBXNativeTarget "PopcornKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEEBD62042C91900F62548 /* Debug */,
+				4DAEEBD72042C91900F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEEBE22042C96A00F62548 /* Build configuration list for PBXNativeTarget "PopcornKit watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEEBE32042C96A00F62548 /* Debug */,
+				4DAEEBE42042C96A00F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEEBEF2042C97800F62548 /* Build configuration list for PBXNativeTarget "PopcornKit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEEBF02042C97800F62548 /* Debug */,
+				4DAEEBF12042C97800F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEEBFC2042C98E00F62548 /* Build configuration list for PBXNativeTarget "PopcornKit macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEEBFD2042C98E00F62548 /* Debug */,
+				4DAEEBFE2042C98E00F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEEC842042F10200F62548 /* Build configuration list for PBXNativeTarget "PopcornKit iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEEC852042F10200F62548 /* Debug */,
+				4DAEEC862042F10200F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEEC932042F20B00F62548 /* Build configuration list for PBXNativeTarget "PopcornKit tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEEC942042F20B00F62548 /* Debug */,
+				4DAEEC952042F20B00F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEECA32042F24900F62548 /* Build configuration list for PBXNativeTarget "PopcornKit macOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEECA42042F24900F62548 /* Debug */,
+				4DAEECA52042F24900F62548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DAEEBC42042C91900F62548 /* Project object */;
+}
