@@ -41,13 +41,14 @@
         _peers = [dictionary[@"peers"] unsignedIntegerValue];
         _seeds = [dictionary[@"seeds"] unsignedIntegerValue];
         _URL = [NSURL URLWithString:dictionary[@"url"]];
+        _quality = dictionary[@"quality"];
         
         if (_provider != nil &&
             !isnan(_size) &&
             !isnan(_peers) &&
             !isnan(_seeds) &&
-            _URL != nil) {
-            _quality = PCTTorrentQualityUnknown;
+            _URL != nil &&
+            _quality != nil) {
             return self;
         }
         

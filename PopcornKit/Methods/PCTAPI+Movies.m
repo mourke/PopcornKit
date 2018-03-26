@@ -31,14 +31,14 @@
 @implementation PCTAPI (Movies)
 
 + (NSURLSessionDataTask *)loadMoviesOnPage:(NSUInteger)page
-                                    filter:(PCTFilters)filter
-                                     genre:(PCTGenres)genre
+                                    filter:(PCTFilter)filter
+                                     genre:(PCTGenre)genre
                                searchQuery:(NSString *)query
-                                     order:(PCTOrders)order
+                                     order:(PCTOrder)order
                                   callback:(void (^)(NSError * _Nullable, NSArray<PCTMovie *> * _Nonnull))callback {
     NSURLSession *session = [NSURLSession sharedSession];
     
-    NSURLComponents *components = [NSURLComponents componentsWithString:[NSString stringWithFormat:@"%@/%zx", kPCTEndpointMovies, page]];
+    NSURLComponents *components = [NSURLComponents componentsWithString:[NSString stringWithFormat:@"%@/%tu", kPCTEndpointMovies, page]];
     
     components.queryItems = @[[NSURLQueryItem queryItemWithName:@"sort" value:filter],
                               [NSURLQueryItem queryItemWithName:@"order" value:@(order).stringValue],

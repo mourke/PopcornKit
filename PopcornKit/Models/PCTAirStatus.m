@@ -27,3 +27,6 @@
 
 PCTAirStatus const PCTAirStatusEnded = @"ended";
 PCTAirStatus const PCTAirStatusReturning = @"returning series";
+PCTAirStatus const PCTAirStatusCanceled = @"canceled";
+PCTAirStatus const PCTAirStatusInProduction = @"in production";
+PCTAirStatus const PCTAirStatusPlanned = @"planned";

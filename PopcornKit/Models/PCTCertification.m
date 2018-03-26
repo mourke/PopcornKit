@@ -1,5 +1,5 @@
 //
-//  PCTMPAARating.m
+//  PCTCertification.m
 //  PopcornKit
 //
 //  Copyright © 2018 Mark Bourke.
@@ -23,10 +23,17 @@
 //  THE SOFTWARE
 //
 
-#import "PCTMPAARating.h"
+#import "PCTCertification.h"
 
-PCTMPAARating const PCTMPAARatingG = @"G";
-PCTMPAARating const PCTMPAARatingPG = @"PG";
-PCTMPAARating const PCTMPAARatingPG13 = @"PG-13";
-PCTMPAARating const PCTMPAARatingR = @"R";
-PCTMPAARating const PCTMPAARatingNC17 = @"NC-17";
+PCTMovieCertification const PCTMovieCertificationG = @"G";
+PCTMovieCertification const PCTMovieCertificationPG = @"PG";
+PCTMovieCertification const PCTMovieCertificationPG13 = @"PG-13";
+PCTMovieCertification const PCTMovieCertificationR = @"R";
+PCTMovieCertification const PCTMovieCertificationNC17 = @"NC-17";
+
+PCTTVCertification const PCTTVCertificationY = @"TV-Y";
+PCTTVCertification const PCTTVCertification7Y = @"TV-7Y";
+PCTTVCertification const PCTTVCertificationG = @"TV-G";
+PCTTVCertification const PCTTVCertificationPG = @"TV-PG";
+PCTTVCertification const PCTTVCertification14 = @"TV-14";
+PCTTVCertification const PCTTVCertificationMA = @"TV-MA";

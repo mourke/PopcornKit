@@ -27,40 +27,40 @@
 
 @implementation PCTAPI
 
-PCTFilters const PCTFiltersAlphabetically = @"name";
-PCTFilters const PCTFiltersTrending = @"trending";
-PCTFilters const PCTFiltersRating = @"rating";
-PCTFilters const PCTFiltersDate = @"released";
-PCTFilters const PCTFiltersYear = @"year";
+PCTFilter const PCTFilterAlphabetically = @"name";
+PCTFilter const PCTFilterTrending = @"trending";
+PCTFilter const PCTFilterRating = @"rating";
+PCTFilter const PCTFilterDate = @"released";
+PCTFilter const PCTFilterYear = @"year";
 
-PCTGenres const PCTGenresAll = @"all";
-PCTGenres const PCTGenresAction = @"action";
-PCTGenres const PCTGenresAdventure = @"adventure";
-PCTGenres const PCTGenresAnimation = @"animation";
-PCTGenres const PCTGenresComedy = @"comedy";
-PCTGenres const PCTGenresCrime = @"crime";
-PCTGenres const PCTGenresDisaster = @"disaster";
-PCTGenres const PCTGenresDocumentary = @"documentary";
-PCTGenres const PCTGenresDrama = @"drama";
-PCTGenres const PCTGenresFamily = @"family";
-PCTGenres const PCTGenresFanFilm = @"fan-film";
-PCTGenres const PCTGenresFantasy = @"fantasy";
-PCTGenres const PCTGenresFilmNoir = @"film-noir";
-PCTGenres const PCTGenresHistory = @"history";
-PCTGenres const PCTGenresHoliday = @"history";
-PCTGenres const PCTGenresHorror = @"horror";
-PCTGenres const PCTGenresIndie = @"indie";
-PCTGenres const PCTGenresMusic = @"music";
-PCTGenres const PCTGenresMystery = @"mystery";
-PCTGenres const PCTGenresRoad = @"road";
-PCTGenres const PCTGenresRomance = @"romance";
-PCTGenres const PCTGenresScienceFiction = @"science-fiction";
-PCTGenres const PCTGenresShort = @"short";
-PCTGenres const PCTGenresSports = @"sports";
-PCTGenres const PCTGenresSportingEvent = @"sporting-event";
-PCTGenres const PCTGenresSuspense = @"suspense";
-PCTGenres const PCTGenresThriller = @"thriller";
-PCTGenres const PCTGenresWar = @"war";
-PCTGenres const PCTGenresWestern = @"western";
+PCTGenre const PCTGenreAll = @"all";
+PCTGenre const PCTGenreAction = @"action";
+PCTGenre const PCTGenreAdventure = @"adventure";
+PCTGenre const PCTGenreAnimation = @"animation";
+PCTGenre const PCTGenreComedy = @"comedy";
+PCTGenre const PCTGenreCrime = @"crime";
+PCTGenre const PCTGenreDisaster = @"disaster";
+PCTGenre const PCTGenreDocumentary = @"documentary";
+PCTGenre const PCTGenreDrama = @"drama";
+PCTGenre const PCTGenreFamily = @"family";
+PCTGenre const PCTGenreFanFilm = @"fan-film";
+PCTGenre const PCTGenreFantasy = @"fantasy";
+PCTGenre const PCTGenreFilmNoir = @"film-noir";
+PCTGenre const PCTGenreHistory = @"history";
+PCTGenre const PCTGenreHoliday = @"history";
+PCTGenre const PCTGenreHorror = @"horror";
+PCTGenre const PCTGenreIndie = @"indie";
+PCTGenre const PCTGenreMusic = @"music";
+PCTGenre const PCTGenreMystery = @"mystery";
+PCTGenre const PCTGenreRoad = @"road";
+PCTGenre const PCTGenreRomance = @"romance";
+PCTGenre const PCTGenreScienceFiction = @"science-fiction";
+PCTGenre const PCTGenreShort = @"short";
+PCTGenre const PCTGenreSports = @"sports";
+PCTGenre const PCTGenreSportingEvent = @"sporting-event";
+PCTGenre const PCTGenreSuspense = @"suspense";
+PCTGenre const PCTGenreThriller = @"thriller";
+PCTGenre const PCTGenreWar = @"war";
+PCTGenre const PCTGenreWestern = @"western";
 
 @end

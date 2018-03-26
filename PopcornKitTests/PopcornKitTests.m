@@ -37,7 +37,7 @@
     
     [[PCTAPI loadMoviesOnPage:1
                        filter:PCTFiltersTrending
-                        genre:PCTGenresAll
+                        genre:PCTGenreAll
                   searchQuery:nil
                         order:PCTOrdersDescending
                      callback:^(NSError * _Nullable error, NSArray<PCTMovie *> * _Nonnull movies) {
@@ -54,7 +54,7 @@
     
     [[PCTAPI loadShowsOnPage:1
                       filter:PCTFiltersTrending
-                       genre:PCTGenresAll
+                       genre:PCTGenreAll
                  searchQuery:nil
                        order:PCTOrdersDescending
                     callback:^(NSError * _Nullable error, NSArray<PCTShow *> * _Nonnull shows) {

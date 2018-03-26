@@ -1,5 +1,5 @@
 //
-//  PCTEpisode.h
+//  PCTImageSize.m
 //  PopcornKit
 //
 //  Copyright © 2018 Mark Bourke.
@@ -23,43 +23,14 @@
 //  THE SOFTWARE
 //
 
-#import <Foundation/Foundation.h>
 #import "PCTImageSize.h"
 
-@class PCTEpisode, PCTTorrent;
+PCTBackdropImageSize const PCTBackdropImageSizeSmall = @"w300";
+PCTBackdropImageSize const PCTBackdropImageSizeMedium = @"w780";
+PCTBackdropImageSize const PCTBackdropImageSizeLarge = @"w1280";
+PCTBackdropImageSize const PCTBackdropImageSizeOriginal = @"original";
 
-NS_ASSUME_NONNULL_BEGIN
-
-NS_SWIFT_NAME(Episode)
-@interface PCTEpisode : NSObject
-
-/** The name of the episode. */
-@property (strong, nonatomic, readonly) NSString *title;
-
-/** The TMDB identifier of the episode. */
-@property (nonatomic, readonly) NSInteger tmdbID NS_SWIFT_NAME(tmdbId);
-
-/** The episode number of the episode. */
-@property (nonatomic, readonly) NSUInteger number;
-
-/** A short summary of the episode's plot. */
-@property (strong, nonatomic, readonly) NSString *synopsis;
-
-/** The date on which the episode was aired. */
-@property (strong, nonatomic, readonly) NSDate *releaseDate;
-
-/** The torrents for the episode. */
-@property (strong, nonatomic, readonly) NSArray<PCTTorrent *> *torrents;
-
-/**
- Returns a screenshot thumb image URL for the episode taylored to a specific size, if available. Ratio is usually 16:9
- 
- @param size    The size of the desired image.
- 
- @return    The URL, if available.
- */
-- (NSURL * _Nullable)screenshotURLForSize:(PCTScreenshotImageSize _Nonnull)size NS_SWIFT_NAME(screenshot(for:));
-
-@end
-
-NS_ASSUME_NONNULL_END
+PCTPosterImageSize const PCTPosterImageSizeSmall = @"w154";
+PCTPosterImageSize const PCTPosterImageSizeMedium = @"w342";
+PCTPosterImageSize const PCTPosterImageSizeLarge = @"w780";
+PCTPosterImageSize const PCTPosterImageSizeOriginal = @"original";

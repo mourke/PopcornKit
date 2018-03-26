@@ -40,6 +40,9 @@ NS_SWIFT_NAME(AirInformation)
 /** Date components describing the time at which and the day on which the show is aired. If the show has ended, all of these components will be `nil`. */
 @property (strong, nonatomic, readonly) NSDateComponents *dateComponents;
 
+/** The ISO 3166-2 code for the country in which the show is set/recorded. */
+@property (strong, nonatomic, readonly) NSString *countryCode;
+
 /** The original network on which the show is released. */
 @property (strong, nonatomic, readonly) NSString *network;
 

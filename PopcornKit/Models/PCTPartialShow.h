@@ -24,6 +24,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PCTCertification.h"
 
 @class PCTImages;
 
@@ -42,16 +43,22 @@ NS_SWIFT_NAME(PartialShow)
 @property (strong, nonatomic, readonly) NSString *imdbID NS_SWIFT_NAME(imdbId);
 
 /** The TMDB identifier of the show. */
-@property (strong, nonatomic, readonly) NSString *tmdbID NS_SWIFT_NAME(tmdbId);
+@property (nonatomic, readonly) NSInteger tmdbID NS_SWIFT_NAME(tmdbId);
 
 /** The TVDB identifier of the show. */
-@property (strong, nonatomic, readonly) NSString *tvdbID NS_SWIFT_NAME(tvdbId);
+@property (nonatomic, readonly) NSInteger tvdbID NS_SWIFT_NAME(tvdbId);
 
-/** The date on which the show was released, rounded to the nearest year. */
+/** The show's rating (from 1 to 5), according to trakt. */
+@property (nonatomic, readonly) float rating;
+
+/** The date on which the first episode was aired. */
 @property (strong, nonatomic, readonly) NSDate *releaseDate;
 
 /** The image art for the movie, if any. */
 @property (strong, nonatomic, readonly) PCTImages *images;
+
+/** The TV rating for the show. */
+@property (strong, nonatomic, readonly) PCTTVCertification certification;
 
 @end
 

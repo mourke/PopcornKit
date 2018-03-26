@@ -28,66 +28,66 @@
 NS_SWIFT_NAME(PopcornKit)
 @interface PCTAPI : NSObject
 
-NS_SWIFT_NAME(Orders)
-typedef NS_ENUM(NSInteger, PCTOrders) {
-    PCTOrdersAscending = 1,
-    PCTOrdersDescending = -1
+NS_SWIFT_NAME(Order)
+typedef NS_ENUM(NSInteger, PCTOrder) {
+    PCTOrderAscending = 1,
+    PCTOrderDescending = -1
 };
 
 /**
  The values used to filter down a response from the api.
  */
-typedef NSString *PCTFilters NS_EXTENSIBLE_STRING_ENUM NS_SWIFT_NAME(Filters);
+typedef NSString *PCTFilter NS_EXTENSIBLE_STRING_ENUM NS_SWIFT_NAME(Filter);
 
-/** An A-Z (or Z-A depending on the `PCTOrders` value) list of all movies. */
-extern PCTFilters const PCTFiltersAlphabetically;
+/** An A-Z (or Z-A depending on the `PCTOrder` value) list of all movies. */
+extern PCTFilter const PCTFilterAlphabetically;
 
 /** A list of currently trending movies. */
-extern PCTFilters const PCTFiltersTrending;
+extern PCTFilter const PCTFilterTrending;
 
 /** A list of movies sorted by their IMDB rating. */
-extern PCTFilters const PCTFiltersRating;
+extern PCTFilter const PCTFilterRating;
 
 /** A list of movies that were recently added to the api. */
-extern PCTFilters const PCTFiltersDate;
+extern PCTFilter const PCTFilterDate;
 
 /** A list of the newest movies on the api. */
-extern PCTFilters const PCTFiltersYear;
+extern PCTFilter const PCTFilterYear;
 
 
 /**
  The different possible genres that a movie can fall into.
  */
-typedef NSString *PCTGenres NS_EXTENSIBLE_STRING_ENUM NS_SWIFT_NAME(Genres);
+typedef NSString *PCTGenre NS_EXTENSIBLE_STRING_ENUM NS_SWIFT_NAME(Genre);
 
-extern PCTGenres const PCTGenresAll;
-extern PCTGenres const PCTGenresAction;
-extern PCTGenres const PCTGenresAdventure;
-extern PCTGenres const PCTGenresAnimation;
-extern PCTGenres const PCTGenresComedy;
-extern PCTGenres const PCTGenresCrime;
-extern PCTGenres const PCTGenresDisaster;
-extern PCTGenres const PCTGenresDocumentary;
-extern PCTGenres const PCTGenresDrama;
-extern PCTGenres const PCTGenresFamily;
-extern PCTGenres const PCTGenresFanFilm;
-extern PCTGenres const PCTGenresFantasy;
-extern PCTGenres const PCTGenresFilmNoir;
-extern PCTGenres const PCTGenresHistory;
-extern PCTGenres const PCTGenresHoliday;
-extern PCTGenres const PCTGenresHorror;
-extern PCTGenres const PCTGenresIndie;
-extern PCTGenres const PCTGenresMusic;
-extern PCTGenres const PCTGenresMystery;
-extern PCTGenres const PCTGenresRoad;
-extern PCTGenres const PCTGenresRomance;
-extern PCTGenres const PCTGenresScienceFiction;
-extern PCTGenres const PCTGenresShort;
-extern PCTGenres const PCTGenresSports;
-extern PCTGenres const PCTGenresSportingEvent;
-extern PCTGenres const PCTGenresSuspense;
-extern PCTGenres const PCTGenresThriller;
-extern PCTGenres const PCTGenresWar;
-extern PCTGenres const PCTGenresWestern;
+extern PCTGenre const PCTGenreAll;
+extern PCTGenre const PCTGenreAction;
+extern PCTGenre const PCTGenreAdventure;
+extern PCTGenre const PCTGenreAnimation;
+extern PCTGenre const PCTGenreComedy;
+extern PCTGenre const PCTGenreCrime;
+extern PCTGenre const PCTGenreDisaster;
+extern PCTGenre const PCTGenreDocumentary;
+extern PCTGenre const PCTGenreDrama;
+extern PCTGenre const PCTGenreFamily;
+extern PCTGenre const PCTGenreFanFilm;
+extern PCTGenre const PCTGenreFantasy;
+extern PCTGenre const PCTGenreFilmNoir;
+extern PCTGenre const PCTGenreHistory;
+extern PCTGenre const PCTGenreHoliday;
+extern PCTGenre const PCTGenreHorror;
+extern PCTGenre const PCTGenreIndie;
+extern PCTGenre const PCTGenreMusic;
+extern PCTGenre const PCTGenreMystery;
+extern PCTGenre const PCTGenreRoad;
+extern PCTGenre const PCTGenreRomance;
+extern PCTGenre const PCTGenreScienceFiction;
+extern PCTGenre const PCTGenreShort;
+extern PCTGenre const PCTGenreSports;
+extern PCTGenre const PCTGenreSportingEvent;
+extern PCTGenre const PCTGenreSuspense;
+extern PCTGenre const PCTGenreThriller;
+extern PCTGenre const PCTGenreWar;
+extern PCTGenre const PCTGenreWestern;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  PCTMPAARating.h
+//  PCTSeason.h
 //  PopcornKit
 //
 //  Copyright © 2018 Mark Bourke.
@@ -23,24 +23,43 @@
 //  THE SOFTWARE
 //
 
-#import <Foundation/NSString.h>
+#import <Foundation/Foundation.h>
+#import "PCTImageSize.h"
+
+@class PCTEpisode;
+
+NS_ASSUME_NONNULL_BEGIN
+
+NS_SWIFT_NAME(Season)
+@interface PCTSeason : NSObject
+
+/** The name of the season. */
+@property (strong, nonatomic, readonly) NSString *title;
+
+/** The TMDB identifier of the season. */
+@property (nonatomic, readonly) NSInteger tmdbID NS_SWIFT_NAME(tmdbId);
+
+/** The season number of the season. */
+@property (nonatomic, readonly) NSUInteger number;
+
+/** A short summary of the season's plot. */
+@property (strong, nonatomic, readonly) NSString *synopsis;
+
+/** The date on which the first episode in the season was aired. */
+@property (strong, nonatomic, readonly) NSDate *releaseDate;
+
+/** The episodes in the season. */
+@property (strong, nonatomic, readonly) NSArray<PCTEpisode *> *episodes;
 
 /**
- The Motion Picture Association of America rating system.
+ Returns a poster image URL for the episode taylored to a specific size, if available. Ratio is usually 713:500.
+ 
+ @param size    The size of the desired image.
+ 
+ @return    The URL, if available.
  */
-typedef NSString *PCTMPAARating NS_EXTENSIBLE_STRING_ENUM NS_SWIFT_NAME(MPAARating);
+- (NSURL * _Nullable)posterURLForSize:(PCTPosterImageSize _Nonnull)size NS_SWIFT_NAME(poster(for:));
 
-/** All ages admitted. Nothing that would offend parents for viewing by children. */
-extern PCTMPAARating const PCTMPAARatingG;
+@end
 
-/** Some material may not be suitable for children. Parents urged to give "parental guidance". May contain some material parents might not like for their young children. */
-extern PCTMPAARating const PCTMPAARatingPG;
-
-/** Some material may be inappropriate for children under 13. Parents are urged to be cautious. Some material may be inappropriate for pre-teenagers. */
-extern PCTMPAARating const PCTMPAARatingPG13;
-
-/** Under 17 requires accompanying parent or adult guardian. Contains some adult material. Parents are urged to learn more about the film before taking their young children with them. */
-extern PCTMPAARating const PCTMPAARatingR;
-
-/** No One 17 and Under Admitted. Clearly adult. Children are not admitted. */
-extern PCTMPAARating const PCTMPAARatingNC17;
+NS_ASSUME_NONNULL_END

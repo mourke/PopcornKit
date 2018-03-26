@@ -45,10 +45,10 @@ NS_ASSUME_NONNULL_BEGIN
  @return    The request's `NSURLSessionTask` to be resumed.
  */
 + (NSURLSessionDataTask *)loadMoviesOnPage:(NSUInteger)page
-                                    filter:(PCTFilters)filter
-                                     genre:(PCTGenres)genre
+                                    filter:(PCTFilter)filter
+                                     genre:(PCTGenre)genre
                                searchQuery:(NSString * _Nullable)query
-                                     order:(PCTOrders)order
+                                     order:(PCTOrder)order
                                   callback:(void (^)(NSError * _Nullable, NSArray<PCTMovie *> *))callback NS_SWIFT_NAME(movies(on:filter:genre:query:order:callback:));
 
 /**

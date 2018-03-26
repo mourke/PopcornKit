@@ -32,8 +32,9 @@
 
 @implementation PCTImages {
     NSString *_posterString;
-    NSString *_fanartString;
-    NSString *_bannerString;
+    NSString *_backdropString;
+    NSString *_logoString;
+    NSString *_backgroundThumbString;
 }
 
 - (instancetype)initFromDictionary:(NSDictionary *)dictionary {
@@ -41,27 +42,39 @@
     
     if (self) {
         NSString *posterString = dictionary[@"poster"];
-        NSString *fanartString = dictionary[@"fanart"];
-        NSString *bannerString = dictionary[@"banner"];
+        NSString *backdropString = dictionary[@"backdrop"];
+        NSString *logoString = dictionary[@"logo"];
+        NSString *backgroundThumbString = dictionary[@"thumb"];
         
         if ([posterString isKindOfClass:NSString.class]) _posterString = posterString;
-        if ([fanartString isKindOfClass:NSString.class]) _fanartString = fanartString;
-        if ([bannerString isKindOfClass:NSString.class]) _bannerString = bannerString;
+        if ([backdropString isKindOfClass:NSString.class]) _backdropString = backdropString;
+        if ([logoString isKindOfClass:NSString.class]) _logoString = logoString;
+        if ([backgroundThumbString isKindOfClass:NSString.class]) _backgroundThumbString = backgroundThumbString;
     }
     
     return self;
 }
 
-- (NSURL *)posterImageForWidth:(NSInteger)width {
-    return [NSURL URLWithString:[_posterString stringByReplacingOccurrencesOfString:@"w500" withString:[NSString stringWithFormat:@"w%zd", width]]];
+- (NSURL *)posterURLForSize:(PCTPosterImageSize)size {
+    if (_posterString == nil) return nil;
+    NSString *base = @"http://image.tmdb.org/t/p/";
+    NSString *image = [_posterString lastPathComponent];
+    return [NSURL URLWithString:[NSString stringWithFormat:@"%@/%@/%@", base, size, image]];
 }
 
-- (NSURL *)fanartImageForWidth:(NSInteger)width {
-    return [NSURL URLWithString:[_fanartString stringByReplacingOccurrencesOfString:@"w500" withString:[NSString stringWithFormat:@"w%zd", width]]];
+- (NSURL *)backdropURLForSize:(PCTBackdropImageSize)size {
+    if (_backdropString == nil) return nil;
+    NSString *base = @"http://image.tmdb.org/t/p/";
+    NSString *image = [_backdropString lastPathComponent];
+    return [NSURL URLWithString:[NSString stringWithFormat:@"%@/%@/%@", base, size, image]];
 }
 
-- (NSURL *)bannerImageForWidth:(NSInteger)width {
-    return [NSURL URLWithString:[_bannerString stringByReplacingOccurrencesOfString:@"w500" withString:[NSString stringWithFormat:@"w%zd", width]]];
+- (NSURL *)thumbURL {
+    return [NSURL URLWithString:_backgroundThumbString];
+}
+
+- (NSURL *)logoURL {
+    return [NSURL URLWithString:_logoString];
 }
 
 @end

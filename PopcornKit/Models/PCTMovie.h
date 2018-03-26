@@ -24,7 +24,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PCTMPAARating.h"
+#import "PCTCertification.h"
 
 @class PCTImages, PCTTorrent;
 
@@ -40,7 +40,7 @@ NS_SWIFT_NAME(Movie)
 @property (strong, nonatomic, readonly) NSString *imdbID NS_SWIFT_NAME(imdbId);
 
 /** The TMDB identifier of the movie. */
-@property (strong, nonatomic, readonly) NSString *tmdbID NS_SWIFT_NAME(tmdbId);
+@property (nonatomic, readonly) NSInteger tmdbID NS_SWIFT_NAME(tmdbId);
 
 /** The date on which the movie was released. */
 @property (strong, nonatomic, readonly) NSDate *releaseDate;
@@ -52,7 +52,10 @@ NS_SWIFT_NAME(Movie)
 @property (nonatomic, readonly) NSInteger runtime;
 
 /** The Motion Picture Association of America rating for the movie. */
-@property (strong, nonatomic, readonly) PCTMPAARating rating;
+@property (strong, nonatomic, readonly) PCTMovieCertification certification;
+
+/** The movie's rating (from 1 to 5), according to trakt. */
+@property (nonatomic, readonly) float rating;
 
 /** A YouTube URL for the movie's trailer. */
 @property (strong, nonatomic, nullable, readonly) NSURL *trailerURL;

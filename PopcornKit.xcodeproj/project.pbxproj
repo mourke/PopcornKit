@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D68A73020546E4C00C098A7 /* PCTSeason.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D68A72E20546E4C00C098A7 /* PCTSeason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D68A73120546E4C00C098A7 /* PCTSeason.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D68A72E20546E4C00C098A7 /* PCTSeason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D68A73220546E4C00C098A7 /* PCTSeason.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D68A72E20546E4C00C098A7 /* PCTSeason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D68A73320546E4C00C098A7 /* PCTSeason.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D68A72E20546E4C00C098A7 /* PCTSeason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D68A73420546E4C00C098A7 /* PCTSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68A72F20546E4C00C098A7 /* PCTSeason.m */; };
+		4D68A73520546E4C00C098A7 /* PCTSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68A72F20546E4C00C098A7 /* PCTSeason.m */; };
+		4D68A73620546E4C00C098A7 /* PCTSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68A72F20546E4C00C098A7 /* PCTSeason.m */; };
+		4D68A73720546E4C00C098A7 /* PCTSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D68A72F20546E4C00C098A7 /* PCTSeason.m */; };
+		4D878856204C767000144B3B /* PCTImageSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D878854204C767000144B3B /* PCTImageSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D878857204C767000144B3B /* PCTImageSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D878854204C767000144B3B /* PCTImageSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D878858204C767000144B3B /* PCTImageSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D878854204C767000144B3B /* PCTImageSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D878859204C767000144B3B /* PCTImageSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D878854204C767000144B3B /* PCTImageSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D87885A204C767000144B3B /* PCTImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D878855204C767000144B3B /* PCTImageSize.m */; };
+		4D87885B204C767000144B3B /* PCTImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D878855204C767000144B3B /* PCTImageSize.m */; };
+		4D87885C204C767000144B3B /* PCTImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D878855204C767000144B3B /* PCTImageSize.m */; };
+		4D87885D204C767000144B3B /* PCTImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D878855204C767000144B3B /* PCTImageSize.m */; };
 		4DAEEBD22042C91900F62548 /* PopcornKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEBD02042C91900F62548 /* PopcornKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DAEEBFF2042C9FB00F62548 /* PopcornKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEBD02042C91900F62548 /* PopcornKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DAEEC002042C9FB00F62548 /* PopcornKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEBD02042C91900F62548 /* PopcornKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,14 +35,14 @@
 		4DAEEC0B2042CA8D00F62548 /* PCTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC052042CA8D00F62548 /* PCTMovie.m */; };
 		4DAEEC0C2042CA8D00F62548 /* PCTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC052042CA8D00F62548 /* PCTMovie.m */; };
 		4DAEEC0D2042CA8D00F62548 /* PCTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC052042CA8D00F62548 /* PCTMovie.m */; };
-		4DAEEC102042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DAEEC112042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DAEEC122042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DAEEC132042CC3300F62548 /* PCTMPAARating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DAEEC142042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
-		4DAEEC152042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
-		4DAEEC162042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
-		4DAEEC172042CC3300F62548 /* PCTMPAARating.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */; };
+		4DAEEC102042CC3300F62548 /* PCTCertification.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTCertification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC112042CC3300F62548 /* PCTCertification.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTCertification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC122042CC3300F62548 /* PCTCertification.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTCertification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC132042CC3300F62548 /* PCTCertification.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC0E2042CC3300F62548 /* PCTCertification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DAEEC142042CC3300F62548 /* PCTCertification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTCertification.m */; };
+		4DAEEC152042CC3300F62548 /* PCTCertification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTCertification.m */; };
+		4DAEEC162042CC3300F62548 /* PCTCertification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTCertification.m */; };
+		4DAEEC172042CC3300F62548 /* PCTCertification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEEC0F2042CC3300F62548 /* PCTCertification.m */; };
 		4DAEEC1A2042CEDA00F62548 /* PCTImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC182042CEDA00F62548 /* PCTImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DAEEC1B2042CEDA00F62548 /* PCTImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC182042CEDA00F62548 /* PCTImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DAEEC1C2042CEDA00F62548 /* PCTImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAEEC182042CEDA00F62548 /* PCTImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -160,6 +176,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D68A72E20546E4C00C098A7 /* PCTSeason.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTSeason.h; sourceTree = "<group>"; };
+		4D68A72F20546E4C00C098A7 /* PCTSeason.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTSeason.m; sourceTree = "<group>"; };
+		4D878854204C767000144B3B /* PCTImageSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTImageSize.h; sourceTree = "<group>"; };
+		4D878855204C767000144B3B /* PCTImageSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTImageSize.m; sourceTree = "<group>"; };
 		4DAEEBCD2042C91900F62548 /* PopcornKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEEBD02042C91900F62548 /* PopcornKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopcornKit.h; sourceTree = "<group>"; };
 		4DAEEBD12042C91900F62548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,8 +188,8 @@
 		4DAEEBF72042C98E00F62548 /* PopcornKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopcornKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEEC042042CA8D00F62548 /* PCTMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTMovie.h; sourceTree = "<group>"; };
 		4DAEEC052042CA8D00F62548 /* PCTMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTMovie.m; sourceTree = "<group>"; };
-		4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTMPAARating.h; sourceTree = "<group>"; };
-		4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTMPAARating.m; sourceTree = "<group>"; };
+		4DAEEC0E2042CC3300F62548 /* PCTCertification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTCertification.h; sourceTree = "<group>"; };
+		4DAEEC0F2042CC3300F62548 /* PCTCertification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTCertification.m; sourceTree = "<group>"; };
 		4DAEEC182042CEDA00F62548 /* PCTImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTImages.h; sourceTree = "<group>"; };
 		4DAEEC192042CEDA00F62548 /* PCTImages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTImages.m; sourceTree = "<group>"; };
 		4DAEEC222042D11100F62548 /* PCTTorrent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTTorrent.h; sourceTree = "<group>"; };
@@ -314,10 +334,14 @@
 				4DAEEC652042E8F400F62548 /* PCTAirInformation.m */,
 				4DAEEC6E2042E90700F62548 /* PCTAirStatus.h */,
 				4DAEEC6F2042E90700F62548 /* PCTAirStatus.m */,
+				4D68A72E20546E4C00C098A7 /* PCTSeason.h */,
+				4D68A72F20546E4C00C098A7 /* PCTSeason.m */,
 				4DAEEC502042E47400F62548 /* PCTEpisode.h */,
 				4DAEEC512042E47400F62548 /* PCTEpisode.m */,
-				4DAEEC0E2042CC3300F62548 /* PCTMPAARating.h */,
-				4DAEEC0F2042CC3300F62548 /* PCTMPAARating.m */,
+				4DAEEC0E2042CC3300F62548 /* PCTCertification.h */,
+				4DAEEC0F2042CC3300F62548 /* PCTCertification.m */,
+				4D878854204C767000144B3B /* PCTImageSize.h */,
+				4D878855204C767000144B3B /* PCTImageSize.m */,
 				4DAEEC182042CEDA00F62548 /* PCTImages.h */,
 				4DAEEC192042CEDA00F62548 /* PCTImages.m */,
 				4DAEEC222042D11100F62548 /* PCTTorrent.h */,
@@ -367,14 +391,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAEEC102042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEEC102042CC3300F62548 /* PCTCertification.h in Headers */,
 				4DAEECAA2042F8C900F62548 /* PCTAPI.h in Headers */,
 				4DAEEC482042E46A00F62548 /* PCTShow.h in Headers */,
 				4DAEEC662042E8F400F62548 /* PCTAirInformation.h in Headers */,
 				4DAEECBE204308B200F62548 /* PCTAPI+Shows.h in Headers */,
 				4DAEEC342042D2FC00F62548 /* PCTEndpoints.h in Headers */,
 				4DAEEC2E2042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4D68A73020546E4C00C098A7 /* PCTSeason.h in Headers */,
 				4DAEEC702042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4D878856204C767000144B3B /* PCTImageSize.h in Headers */,
 				4DAEECB42042F99900F62548 /* PCTAPI+Movies.h in Headers */,
 				4DAEEBD22042C91900F62548 /* PopcornKit.h in Headers */,
 				4DAEEC5C2042E58100F62548 /* PCTPartialShow.h in Headers */,
@@ -390,14 +416,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAEEC112042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEEC112042CC3300F62548 /* PCTCertification.h in Headers */,
 				4DAEECAB2042F8C900F62548 /* PCTAPI.h in Headers */,
 				4DAEEC492042E46A00F62548 /* PCTShow.h in Headers */,
 				4DAEEC672042E8F400F62548 /* PCTAirInformation.h in Headers */,
 				4DAEECBF204308B200F62548 /* PCTAPI+Shows.h in Headers */,
 				4DAEEC352042D2FC00F62548 /* PCTEndpoints.h in Headers */,
 				4DAEEC2F2042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4D68A73120546E4C00C098A7 /* PCTSeason.h in Headers */,
 				4DAEEC712042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4D878857204C767000144B3B /* PCTImageSize.h in Headers */,
 				4DAEECB52042F99900F62548 /* PCTAPI+Movies.h in Headers */,
 				4DAEEBFF2042C9FB00F62548 /* PopcornKit.h in Headers */,
 				4DAEEC5D2042E58100F62548 /* PCTPartialShow.h in Headers */,
@@ -413,14 +441,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAEEC122042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEEC122042CC3300F62548 /* PCTCertification.h in Headers */,
 				4DAEECAC2042F8C900F62548 /* PCTAPI.h in Headers */,
 				4DAEEC4A2042E46A00F62548 /* PCTShow.h in Headers */,
 				4DAEEC682042E8F400F62548 /* PCTAirInformation.h in Headers */,
 				4DAEECC0204308B200F62548 /* PCTAPI+Shows.h in Headers */,
 				4DAEEC362042D2FC00F62548 /* PCTEndpoints.h in Headers */,
 				4DAEEC302042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4D68A73220546E4C00C098A7 /* PCTSeason.h in Headers */,
 				4DAEEC722042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4D878858204C767000144B3B /* PCTImageSize.h in Headers */,
 				4DAEECB62042F99900F62548 /* PCTAPI+Movies.h in Headers */,
 				4DAEEC002042C9FB00F62548 /* PopcornKit.h in Headers */,
 				4DAEEC5E2042E58100F62548 /* PCTPartialShow.h in Headers */,
@@ -436,14 +466,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAEEC132042CC3300F62548 /* PCTMPAARating.h in Headers */,
+				4DAEEC132042CC3300F62548 /* PCTCertification.h in Headers */,
 				4DAEECAD2042F8C900F62548 /* PCTAPI.h in Headers */,
 				4DAEEC4B2042E46A00F62548 /* PCTShow.h in Headers */,
 				4DAEEC692042E8F400F62548 /* PCTAirInformation.h in Headers */,
 				4DAEECC1204308B200F62548 /* PCTAPI+Shows.h in Headers */,
 				4DAEEC372042D2FC00F62548 /* PCTEndpoints.h in Headers */,
 				4DAEEC312042D29700F62548 /* PCTObjectProtocol.h in Headers */,
+				4D68A73320546E4C00C098A7 /* PCTSeason.h in Headers */,
 				4DAEEC732042E90700F62548 /* PCTAirStatus.h in Headers */,
+				4D878859204C767000144B3B /* PCTImageSize.h in Headers */,
 				4DAEECB72042F99900F62548 /* PCTAPI+Movies.h in Headers */,
 				4DAEEC012042C9FC00F62548 /* PopcornKit.h in Headers */,
 				4DAEEC5F2042E58100F62548 /* PCTPartialShow.h in Headers */,
@@ -704,17 +736,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D87885A204C767000144B3B /* PCTImageSize.m in Sources */,
 				4DAEECAE2042F8C900F62548 /* PCTAPI.m in Sources */,
 				4DAEEC382042D2FC00F62548 /* PCTEndpoints.m in Sources */,
 				4DAEEC282042D11100F62548 /* PCTTorrent.m in Sources */,
 				4DAEEC4C2042E46A00F62548 /* PCTShow.m in Sources */,
 				4DAEEC6A2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4D68A73420546E4C00C098A7 /* PCTSeason.m in Sources */,
 				4DAEECC2204308B200F62548 /* PCTAPI+Shows.m in Sources */,
 				4DAEEC422042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
 				4DAEEC0A2042CA8D00F62548 /* PCTMovie.m in Sources */,
 				4DAEEC602042E58100F62548 /* PCTPartialShow.m in Sources */,
 				4DAEEC1E2042CEDA00F62548 /* PCTImages.m in Sources */,
-				4DAEEC142042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC142042CC3300F62548 /* PCTCertification.m in Sources */,
 				4DAEEC742042E90700F62548 /* PCTAirStatus.m in Sources */,
 				4DAEEC562042E47400F62548 /* PCTEpisode.m in Sources */,
 				4DAEECB82042F99900F62548 /* PCTAPI+Movies.m in Sources */,
@@ -725,17 +759,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D87885B204C767000144B3B /* PCTImageSize.m in Sources */,
 				4DAEECAF2042F8C900F62548 /* PCTAPI.m in Sources */,
 				4DAEEC392042D2FC00F62548 /* PCTEndpoints.m in Sources */,
 				4DAEEC292042D11100F62548 /* PCTTorrent.m in Sources */,
 				4DAEEC4D2042E46A00F62548 /* PCTShow.m in Sources */,
 				4DAEEC6B2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4D68A73520546E4C00C098A7 /* PCTSeason.m in Sources */,
 				4DAEECC3204308B200F62548 /* PCTAPI+Shows.m in Sources */,
 				4DAEEC432042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
 				4DAEEC0B2042CA8D00F62548 /* PCTMovie.m in Sources */,
 				4DAEEC612042E58100F62548 /* PCTPartialShow.m in Sources */,
 				4DAEEC1F2042CEDA00F62548 /* PCTImages.m in Sources */,
-				4DAEEC152042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC152042CC3300F62548 /* PCTCertification.m in Sources */,
 				4DAEEC752042E90700F62548 /* PCTAirStatus.m in Sources */,
 				4DAEEC572042E47400F62548 /* PCTEpisode.m in Sources */,
 				4DAEECB92042F99900F62548 /* PCTAPI+Movies.m in Sources */,
@@ -746,17 +782,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D87885C204C767000144B3B /* PCTImageSize.m in Sources */,
 				4DAEECB02042F8C900F62548 /* PCTAPI.m in Sources */,
 				4DAEEC3A2042D2FC00F62548 /* PCTEndpoints.m in Sources */,
 				4DAEEC2A2042D11100F62548 /* PCTTorrent.m in Sources */,
 				4DAEEC4E2042E46A00F62548 /* PCTShow.m in Sources */,
 				4DAEEC6C2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4D68A73620546E4C00C098A7 /* PCTSeason.m in Sources */,
 				4DAEECC4204308B200F62548 /* PCTAPI+Shows.m in Sources */,
 				4DAEEC442042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
 				4DAEEC0C2042CA8D00F62548 /* PCTMovie.m in Sources */,
 				4DAEEC622042E58100F62548 /* PCTPartialShow.m in Sources */,
 				4DAEEC202042CEDA00F62548 /* PCTImages.m in Sources */,
-				4DAEEC162042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC162042CC3300F62548 /* PCTCertification.m in Sources */,
 				4DAEEC762042E90700F62548 /* PCTAirStatus.m in Sources */,
 				4DAEEC582042E47400F62548 /* PCTEpisode.m in Sources */,
 				4DAEECBA2042F99900F62548 /* PCTAPI+Movies.m in Sources */,
@@ -767,17 +805,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D87885D204C767000144B3B /* PCTImageSize.m in Sources */,
 				4DAEECB12042F8C900F62548 /* PCTAPI.m in Sources */,
 				4DAEEC3B2042D2FC00F62548 /* PCTEndpoints.m in Sources */,
 				4DAEEC2B2042D11100F62548 /* PCTTorrent.m in Sources */,
 				4DAEEC4F2042E46A00F62548 /* PCTShow.m in Sources */,
 				4DAEEC6D2042E8F400F62548 /* PCTAirInformation.m in Sources */,
+				4D68A73720546E4C00C098A7 /* PCTSeason.m in Sources */,
 				4DAEECC5204308B200F62548 /* PCTAPI+Shows.m in Sources */,
 				4DAEEC452042DCCB00F62548 /* PCTTorrentQuality.m in Sources */,
 				4DAEEC0D2042CA8D00F62548 /* PCTMovie.m in Sources */,
 				4DAEEC632042E58100F62548 /* PCTPartialShow.m in Sources */,
 				4DAEEC212042CEDA00F62548 /* PCTImages.m in Sources */,
-				4DAEEC172042CC3300F62548 /* PCTMPAARating.m in Sources */,
+				4DAEEC172042CC3300F62548 /* PCTCertification.m in Sources */,
 				4DAEEC772042E90700F62548 /* PCTAirStatus.m in Sources */,
 				4DAEEC592042E47400F62548 /* PCTEpisode.m in Sources */,
 				4DAEECBB2042F99900F62548 /* PCTAPI+Movies.m in Sources */,

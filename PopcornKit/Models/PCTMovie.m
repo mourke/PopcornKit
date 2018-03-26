@@ -39,12 +39,13 @@
     
     if (self) {
         _imdbID = dictionary[@"imdb_id"];
-        _tmdbID = dictionary[@"tmdb_id"];
+        _tmdbID = [dictionary[@"tmdb_id"] integerValue];
         _title = dictionary[@"title"];
         _synopsis = dictionary[@"synopsis"];
-        _rating = dictionary[@"certification"];
+        _certification = dictionary[@"certification"];
         _releaseDate = [NSDate dateWithTimeIntervalSince1970:[dictionary[@"released"] doubleValue]];
         _genres = dictionary[@"genres"];
+        NSUInteger rating = [dictionary[@"rating"][@"percentage"] unsignedIntegerValue];
         
         id images = [PCTImages alloc];
         
@@ -53,16 +54,19 @@
         }
         
         if (_imdbID != nil &&
-            _tmdbID != nil &&
+            !isnan(_tmdbID) &&
             _title != nil &&
             _synopsis != nil &&
-            _rating != nil &&
+            _certification != nil &&
             _releaseDate != nil &&
             _genres != nil &&
+            !isnan(rating) &&
             _images != nil)
         {
             NSString *trailerString = dictionary[@"trailer"];
             _trailerURL = [NSURL URLWithString:trailerString];
+            
+            _rating = rating/20.0;
             
             NSMutableArray *torrents = [NSMutableArray array];
             

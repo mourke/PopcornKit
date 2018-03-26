@@ -1,5 +1,5 @@
 //
-//  PCTEpisode.m
+//  PCTSeason.m
 //  PopcornKit
 //
 //  Copyright © 2018 Mark Bourke.
@@ -23,16 +23,16 @@
 //  THE SOFTWARE
 //
 
-#import "PCTEpisode.h"
+#import "PCTSeason.h"
 #import "PCTObjectProtocol.h"
-#import "PCTTorrent.h"
+#import "PCTEpisode.h"
 
-@interface PCTEpisode() <PCTObjectProtocol>
+@interface PCTSeason() <PCTObjectProtocol>
 
 @end
 
-@implementation PCTEpisode {
-    NSString *_screenshotString;
+@implementation PCTSeason {
+    NSString *_posterString;
 }
 
 - (instancetype)initFromDictionary:(NSDictionary *)dictionary {
@@ -51,22 +51,30 @@
             !isnan(_number) &&
             !isnan(_tmdbID))
         {
-            NSMutableArray *torrents = [NSMutableArray array];
+            NSMutableArray *episodes = [NSMutableArray array];
             
-            for (NSDictionary *torrentDictionary in dictionary[@"torrents"]) {
-                id torrent = [PCTTorrent alloc];
+            for (NSDictionary *episodeDictionary in dictionary[@"episodes"]) {
+                id episode = [PCTEpisode alloc];
                 
-                if ([torrent conformsToProtocol:@protocol(PCTObjectProtocol)]) {
-                    torrent = [torrent initFromDictionary:torrentDictionary];
+                if ([episode conformsToProtocol:@protocol(PCTObjectProtocol)]) {
+                    episode = [episode initFromDictionary:episodeDictionary];
                     
-                    torrent == nil ?: [torrents addObject:torrent];
+                    episode == nil ?: [episodes addObject:episode];
                 }
             }
             
-            _torrents = torrents;
+            [episodes sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1,
+                                                             id  _Nonnull obj2) {
+                NSUInteger firstEpisode = ((PCTEpisode *)obj1).number;
+                NSUInteger secondEpisode = ((PCTEpisode *)obj2).number;
+                
+                return firstEpisode < secondEpisode ? NSOrderedDescending : NSOrderedAscending;
+            }];
             
-            NSString *screenshotString = dictionary[@"image"];
-            if ([screenshotString isKindOfClass:NSString.class]) _screenshotString = screenshotString;
+            _episodes = episodes;
+            
+            NSString *posterString = dictionary[@"image"];
+            if ([posterString isKindOfClass:NSString.class]) _posterString = posterString;
             
             return self;
         }
@@ -75,10 +83,11 @@
     return nil;
 }
 
-- (NSURL *)screenshotURLForSize:(PCTScreenshotImageSize)size {
-    if (_screenshotString == nil) return nil;
+
+- (NSURL *)posterURLForSize:(PCTPosterImageSize)size {
+    if (_posterString == nil) return nil;
     NSString *base = @"http://image.tmdb.org/t/p/";
-    NSString *image = [_screenshotString lastPathComponent];
+    NSString *image = [_posterString lastPathComponent];
     return [NSURL URLWithString:[NSString stringWithFormat:@"%@/%@/%@", base, size, image]];
 }
 

@@ -24,6 +24,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PCTImageSize.h"
 
 NS_SWIFT_NAME(Images)
 @interface PCTImages : NSObject
@@ -31,28 +32,25 @@ NS_SWIFT_NAME(Images)
 /**
  Returns a poster (cover art) URL taylored to a specific size, if available. Ratio is usually 713:500.
  
- @param width   The width of the desired image (in pixels).
+ @param size    The size of the desired image.
  
  @return    The URL, if available.
  */
-- (NSURL * _Nullable)posterImageForWidth:(NSInteger)width;
+- (NSURL * _Nullable)posterURLForSize:(PCTPosterImageSize _Nonnull)size NS_SWIFT_NAME(poster(for:));
 
 /**
- Returns a fanart (background art) URL taylored to a specific size, if available. Ratio is usually 16:9
+ Returns a backdrop (background art) URL taylored to a specific size, if available. Ratio is usually 16:9
  
- @param width   The width of the desired image (in pixels).
+ @param size    The size of the desired image.
  
  @return    The URL, if available.
  */
-- (NSURL * _Nullable)fanartImageForWidth:(NSInteger)width;
+- (NSURL * _Nullable)backdropURLForSize:(PCTBackdropImageSize _Nonnull)size NS_SWIFT_NAME(backdrop(for:));
 
-/**
- Returns a banner (widescreen poster art) URL taylored to a specific size, if available. Ratio is usually 200:37.
- 
- @param width   The width of the desired image (in pixels).
- 
- @return    The URL, if available.
- */
-- (NSURL * _Nullable)bannerImageForWidth:(NSInteger)width;
+/** Returns a background thumb URL, if available. */
+@property (strong, nonatomic, nullable, readonly) NSURL *thumbURL NS_SWIFT_NAME(thumb);
+
+/** Returns a Logo Image URL, if available. */
+@property (strong, nonatomic, nullable, readonly) NSURL *logoURL NS_SWIFT_NAME(logo);
 
 @end

@@ -38,11 +38,12 @@
     if (self) {
         _status = dictionary[@"status"];
         _network = dictionary[@"network"];
+        _countryCode = dictionary[@"country"];
         
         NSDateComponents *components = [NSDateComponents new];
         
-        NSString *airTimeString = dictionary[@"air_time"];
-        NSString *airDayString = dictionary[@"air_day"];
+        NSString *airTimeString = dictionary[@"time"];
+        NSString *airDayString = dictionary[@"day"];
         
         if (_status == PCTAirStatusReturning &&
             [airTimeString isKindOfClass:NSString.class] &&
@@ -57,7 +58,12 @@
         
         _dateComponents = components;
         
-        if (_dateComponents != nil && _network != nil && _status != nil) return self;
+        if (_dateComponents != nil &&
+            [_network isKindOfClass:NSString.class] &&
+            [_status isKindOfClass:NSString.class] &&
+            [_countryCode isKindOfClass:NSString.class]) {
+            return self;
+        }
     }
     
     return nil;

@@ -35,3 +35,12 @@ extern PCTAirStatus const PCTAirStatusEnded;
 
 /** The show is still being produced. The show may be on a break period (holiday or hiatus). */
 extern PCTAirStatus const PCTAirStatusReturning;
+
+/** The show has been canceled. */
+extern PCTAirStatus const PCTAirStatusCanceled;
+
+/** The show is in production and should air soon. */
+extern PCTAirStatus const PCTAirStatusInProduction;
+
+/** The show is in development. */
+extern PCTAirStatus const PCTAirStatusPlanned;
