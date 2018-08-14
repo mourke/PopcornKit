@@ -39,16 +39,18 @@
         _provider = dictionary[@"provider"];
         _size = [dictionary[@"size"] unsignedIntegerValue];
         _peers = [dictionary[@"peers"] unsignedIntegerValue];
+        _peers = isnan(_peers) ? [dictionary[@"peer"] unsignedIntegerValue] : _peers;
         _seeds = [dictionary[@"seeds"] unsignedIntegerValue];
-        _URL = [NSURL URLWithString:dictionary[@"url"]];
-        _quality = dictionary[@"quality"];
+        _seeds = isnan(_seeds) ? [dictionary[@"seed"] unsignedIntegerValue] : _seeds;
         
-        if (_provider != nil &&
+        NSString *urlString = dictionary[@"url"];
+        
+        if ([_provider isKindOfClass:NSString.class] &&
             !isnan(_size) &&
             !isnan(_peers) &&
             !isnan(_seeds) &&
-            _URL != nil &&
-            _quality != nil) {
+            [urlString isKindOfClass:NSString.class]) {
+            _URL = [NSURL URLWithString:urlString];
             return self;
         }
         

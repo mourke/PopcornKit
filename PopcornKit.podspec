@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PopcornKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Objective-C bindings for the PopcornTime API'
   s.homepage         = 'https://github.com/mourke/PopcornKit'
   s.license          = { :type => 'MIT', :text => <<-LICENSE

@@ -36,8 +36,8 @@ NS_SWIFT_NAME(Episode)
 /** The name of the episode. */
 @property (strong, nonatomic, readonly) NSString *title;
 
-/** The TMDB identifier of the episode. */
-@property (nonatomic, readonly) NSInteger tmdbID NS_SWIFT_NAME(tmdbId);
+/** The TVDB identifier of the episode. */
+@property (nonatomic, readonly) NSInteger tvdbID NS_SWIFT_NAME(tvdbId);
 
 /** The episode number of the episode. */
 @property (nonatomic, readonly) NSUInteger number;
@@ -50,15 +50,6 @@ NS_SWIFT_NAME(Episode)
 
 /** The torrents for the episode. */
 @property (strong, nonatomic, readonly) NSArray<PCTTorrent *> *torrents;
-
-/**
- Returns a screenshot thumb image URL for the episode taylored to a specific size, if available. Ratio is usually 16:9
- 
- @param size    The size of the desired image.
- 
- @return    The URL, if available.
- */
-- (NSURL * _Nullable)screenshotURLForSize:(PCTScreenshotImageSize _Nonnull)size NS_SWIFT_NAME(screenshot(for:));
 
 @end
 

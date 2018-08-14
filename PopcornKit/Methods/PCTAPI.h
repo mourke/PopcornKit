@@ -28,11 +28,10 @@
 NS_SWIFT_NAME(PopcornKit)
 @interface PCTAPI : NSObject
 
-NS_SWIFT_NAME(Order)
 typedef NS_ENUM(NSInteger, PCTOrder) {
     PCTOrderAscending = 1,
     PCTOrderDescending = -1
-};
+} NS_SWIFT_NAME(Order);
 
 /**
  The values used to filter down a response from the api.

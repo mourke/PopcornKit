@@ -34,4 +34,4 @@ NSString * const kPCTEndpointRandomMovie = PCT_ENDPOINT_BASE @"/random/movie";
 
 NSString * const kPCTEndpointShows = PCT_ENDPOINT_BASE @"/shows";
 NSString * const kPCTEndpointShow = PCT_ENDPOINT_BASE @"/show";
-NSString * const kPCTEndpointRandomShow = PCT_ENDPOINT_BASE @"random/show";
+NSString * const kPCTEndpointRandomShow = PCT_ENDPOINT_BASE @"/random/show";

@@ -45,27 +45,3 @@ extern PCTMovieCertification const PCTMovieCertificationR;
 /** No One 17 and Under Admitted. Clearly adult. Children are not admitted. */
 extern PCTMovieCertification const PCTMovieCertificationNC17;
 
-
-/**
- A TV Show rating system devised by the National Cable & Telecommunications Association, and the Motion Picture Association of America.
- */
-typedef NSString *PCTTVCertification NS_EXTENSIBLE_STRING_ENUM NS_SWIFT_NAME(TVCertification);
-
-/** This program is designed to be appropriate for all children. */
-extern PCTTVCertification const PCTTVCertificationY;
-
-/** This program is designed for children age 7 and above.*/
-extern PCTTVCertification const PCTTVCertification7Y;
-
-/** Programs suitable for all ages. */
-extern PCTTVCertification const PCTTVCertificationG;
-
-/** This program contains material that parents may find unsuitable for younger children. */
-extern PCTTVCertification const PCTTVCertificationPG;
-
-/** This program contains some material that many parents would find unsuitable for children under 14 years of age. */
-extern PCTTVCertification const PCTTVCertification14;
-
-/** This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17. */
-extern PCTTVCertification const PCTTVCertificationMA;
-

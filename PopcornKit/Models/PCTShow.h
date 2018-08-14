@@ -26,7 +26,7 @@
 #import <Foundation/Foundation.h>
 #import "PCTPartialShow.h"
 
-@class PCTSeason, PCTAirInformation;
+@class PCTEpisode, PCTAirInformation;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -35,6 +35,9 @@ NS_SWIFT_NAME(Show)
 
 /** A short summary of the show's plot. */
 @property (strong, nonatomic, readonly) NSString *synopsis;
+
+/** The date on which the first episode was aired. */
+@property (strong, nonatomic, readonly) NSDate *releaseDate;
 
 /** The length of each episode (in minutes). */
 @property (nonatomic, readonly) NSInteger runtime;
@@ -46,7 +49,7 @@ NS_SWIFT_NAME(Show)
 @property (strong, nonatomic, readonly) NSArray<NSString *> *genres;
 
 /** The episodes in the show. */
-@property (strong, nonatomic, readonly) NSArray<PCTSeason *> *seasons;
+@property (strong, nonatomic, readonly) NSArray<PCTEpisode *> *episodes;
 
 
 @end

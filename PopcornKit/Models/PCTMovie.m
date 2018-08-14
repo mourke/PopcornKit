@@ -39,13 +39,11 @@
     
     if (self) {
         _imdbID = dictionary[@"imdb_id"];
-        _tmdbID = [dictionary[@"tmdb_id"] integerValue];
         _title = dictionary[@"title"];
         _synopsis = dictionary[@"synopsis"];
-        _certification = dictionary[@"certification"];
-        _releaseDate = [NSDate dateWithTimeIntervalSince1970:[dictionary[@"released"] doubleValue]];
         _genres = dictionary[@"genres"];
         NSUInteger rating = [dictionary[@"rating"][@"percentage"] unsignedIntegerValue];
+        NSTimeInterval timeInterval = [dictionary[@"released"] doubleValue];
         
         id images = [PCTImages alloc];
         
@@ -53,18 +51,21 @@
             _images = [images initFromDictionary:dictionary[@"images"]];
         }
         
-        if (_imdbID != nil &&
-            !isnan(_tmdbID) &&
-            _title != nil &&
-            _synopsis != nil &&
-            _certification != nil &&
-            _releaseDate != nil &&
-            _genres != nil &&
+        if ([_imdbID isKindOfClass:NSString.class] &&
+            [_title isKindOfClass:NSString.class] &&
+            [_synopsis isKindOfClass:NSString.class] &&
+            [_genres isKindOfClass:NSArray.class] &&
+            !isnan(timeInterval) &&
             !isnan(rating) &&
             _images != nil)
         {
             NSString *trailerString = dictionary[@"trailer"];
-            _trailerURL = [NSURL URLWithString:trailerString];
+            if ([trailerString isKindOfClass:NSString.class]) _trailerURL = [NSURL URLWithString:trailerString];
+            
+            NSString *certification = dictionary[@"certification"];
+            if ([certification isKindOfClass:NSString.class]) _certification = certification;
+            
+            _releaseDate = [NSDate dateWithTimeIntervalSince1970:timeInterval];
             
             _rating = rating/20.0;
             

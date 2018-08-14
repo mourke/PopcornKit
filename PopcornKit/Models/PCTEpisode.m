@@ -31,55 +31,51 @@
 
 @end
 
-@implementation PCTEpisode {
-    NSString *_screenshotString;
-}
+@implementation PCTEpisode
 
 - (instancetype)initFromDictionary:(NSDictionary *)dictionary {
     self = [super init];
     
     if (self) {
-        _releaseDate = [NSDate dateWithTimeIntervalSince1970:[dictionary[@"first_aired"] doubleValue]];
         _synopsis = dictionary[@"overview"];
         _title = dictionary[@"title"];
         _number = [dictionary[@"number"] unsignedIntegerValue];;
-        _tmdbID = [dictionary[@"tmdb_id"] integerValue];
+        _tvdbID = [dictionary[@"tvdb_id"] integerValue];
         
-        if (_releaseDate != nil &&
-            _synopsis != nil &&
-            _title != nil &&
+        NSTimeInterval timeInterval = [dictionary[@"released"] doubleValue];
+        
+        if ([_synopsis isKindOfClass:NSString.class] &&
+            [_title isKindOfClass:NSString.class] &&
+            !isnan(timeInterval) &&
             !isnan(_number) &&
-            !isnan(_tmdbID))
+            !isnan(_tvdbID))
         {
             NSMutableArray *torrents = [NSMutableArray array];
             
-            for (NSDictionary *torrentDictionary in dictionary[@"torrents"]) {
+            [dictionary[@"torrents"] enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key,
+                                                                                id  _Nonnull obj,
+                                                                                BOOL * _Nonnull stop) {
+                NSDictionary *torrentDictionary = obj;
+                
                 id torrent = [PCTTorrent alloc];
                 
                 if ([torrent conformsToProtocol:@protocol(PCTObjectProtocol)]) {
                     torrent = [torrent initFromDictionary:torrentDictionary];
                     
-                    torrent == nil ?: [torrents addObject:torrent];
+                    ((PCTTorrent *)torrent).quality = (PCTTorrentQuality)key;
+                    
+                    torrent == nil || [key isEqualToString:@"0"] ?: [torrents addObject:torrent];
                 }
-            }
+            }];
             
             _torrents = torrents;
-            
-            NSString *screenshotString = dictionary[@"image"];
-            if ([screenshotString isKindOfClass:NSString.class]) _screenshotString = screenshotString;
+            _releaseDate = [NSDate dateWithTimeIntervalSince1970:timeInterval];
             
             return self;
         }
     }
     
     return nil;
-}
-
-- (NSURL *)screenshotURLForSize:(PCTScreenshotImageSize)size {
-    if (_screenshotString == nil) return nil;
-    NSString *base = @"http://image.tmdb.org/t/p/";
-    NSString *image = [_screenshotString lastPathComponent];
-    return [NSURL URLWithString:[NSString stringWithFormat:@"%@/%@/%@", base, size, image]];
 }
 
 @end

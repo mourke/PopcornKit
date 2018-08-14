@@ -25,7 +25,7 @@
 
 #import "PCTShow.h"
 #import "PCTObjectProtocol.h"
-#import "PCTSeason.h"
+#import "PCTEpisode.h"
 #import "PCTAirInformation.h"
 
 @interface PCTPartialShow() <PCTObjectProtocol>
@@ -42,38 +42,36 @@
         _runtime = [dictionary[@"runtime"] integerValue];
         _genres = dictionary[@"genres"];
         
+        NSTimeInterval timeInterval = [dictionary[@"released"] doubleValue];
+        
         id airInformation = [PCTAirInformation alloc];
         
         if ([airInformation conformsToProtocol:@protocol(PCTObjectProtocol)]) {
             _airInformation = [airInformation initFromDictionary:dictionary];
         }
         
-        if (_synopsis != nil &&
+        if ([_synopsis isKindOfClass:NSString.class] &&
             !isnan(_runtime) &&
-            _genres != nil &&
+            !isnan(timeInterval) &&
+            [_genres isKindOfClass:NSArray.class] &&
             _airInformation != nil)
         {
-            NSMutableArray *seasons = [NSMutableArray array];
             
-            for (NSDictionary *seasonDictionary in dictionary[@"seasons"]) {
-                id season = [PCTSeason alloc];
+            _releaseDate = [NSDate dateWithTimeIntervalSince1970:timeInterval];
+            
+            NSMutableArray *episodes = [NSMutableArray array];
+            
+            for (NSDictionary *episodeDictionary in dictionary[@"episodes"]) {
+                id episode = [PCTEpisode alloc];
                 
-                if ([season conformsToProtocol:@protocol(PCTObjectProtocol)]) {
-                    season = [season initFromDictionary:seasonDictionary];
+                if ([episode conformsToProtocol:@protocol(PCTObjectProtocol)]) {
+                    episode = [episode initFromDictionary:episodeDictionary];
+                    
+                    episode == nil ?: [episodes addObject:episode];
                 }
-                
-                season == nil ?: [seasons addObject:season];
             }
             
-            [seasons sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1,
-                                                              id  _Nonnull obj2) {
-                NSUInteger firstSeason = ((PCTSeason *)obj1).number;
-                NSUInteger secondSeason = ((PCTSeason *)obj2).number;
-                
-                return firstSeason < secondSeason ? NSOrderedDescending : NSOrderedAscending;
-            }];
-            
-            _seasons = seasons;
+            _episodes = episodes;
             
             return self;
         }

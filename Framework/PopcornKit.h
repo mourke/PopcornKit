@@ -48,7 +48,6 @@ FOUNDATION_EXPORT const unsigned char PopcornKitVersionString[];
 #import <PopcornKit/PCTAirInformation.h>
 #import <PopcornKit/PCTAirStatus.h>
 #import <PopcornKit/PCTEpisode.h>
-#import <PopcornKit/PCTSeason.h>
 #import <PopcornKit/PCTCertification.h>
 #import <PopcornKit/PCTImageSize.h>
 #import <PopcornKit/PCTImages.h>

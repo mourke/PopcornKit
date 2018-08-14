@@ -36,10 +36,10 @@
     XCTestExpectation *expectation = [self expectationWithDescription:@"Load movies"];
     
     [[PCTAPI loadMoviesOnPage:1
-                       filter:PCTFiltersTrending
+                       filter:PCTFilterTrending
                         genre:PCTGenreAll
                   searchQuery:nil
-                        order:PCTOrdersDescending
+                        order:PCTOrderDescending
                      callback:^(NSError * _Nullable error, NSArray<PCTMovie *> * _Nonnull movies) {
                          XCTAssertNil(error, @"Failed to load movies %@", error);
                          XCTAssertFalse(movies.count == 0, @"Results were empty");
@@ -53,10 +53,10 @@
     XCTestExpectation *expectation = [self expectationWithDescription:@"Load shows"];
     
     [[PCTAPI loadShowsOnPage:1
-                      filter:PCTFiltersTrending
+                      filter:PCTFilterTrending
                        genre:PCTGenreAll
                  searchQuery:nil
-                       order:PCTOrdersDescending
+                       order:PCTOrderDescending
                     callback:^(NSError * _Nullable error, NSArray<PCTShow *> * _Nonnull shows) {
                         XCTAssertNil(error, @"Failed to load shows %@", error);
                         XCTAssertFalse(shows.count == 0, @"Results were empty");
@@ -82,8 +82,32 @@
     XCTestExpectation *expectation = [self expectationWithDescription:@"Get show"];
     
     [[PCTAPI getShowForImdbID:@"tt3205802" callback:^(NSError * _Nullable error, PCTShow * _Nullable show) {
-        XCTAssertNil(error, @"Failed to load movie %@", error);
+        XCTAssertNil(error, @"Failed to load show %@", error);
         XCTAssertNotNil(show, @"An error occured parsing the show");
+        [expectation fulfill];
+    }] resume];
+    
+    [self waitForExpectationsWithTimeout:5.0 handler:nil];
+}
+
+- (void)testRandomShow {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Random show"];
+    
+    [[PCTAPI getRandomShowWithCallback:^(NSError * _Nullable error, PCTPartialShow * _Nullable show) {
+        XCTAssertNil(error, @"Failed to load show %@", error);
+        XCTAssertNotNil(show, @"An error occured parsing the show");
+        [expectation fulfill];
+    }] resume];
+    
+    [self waitForExpectationsWithTimeout:5.0 handler:nil];
+}
+
+- (void)testRandomMovie {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Random movie"];
+    
+    [[PCTAPI getRandomMovieWithCallback:^(NSError * _Nullable error, PCTMovie * _Nullable movie) {
+        XCTAssertNil(error, @"Failed to load movie %@", error);
+        XCTAssertNotNil(movie, @"An error occured parsing the movie");
         [expectation fulfill];
     }] resume];
     

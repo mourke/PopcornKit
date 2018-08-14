@@ -101,9 +101,12 @@
     
     NSURL *URL = [NSURL URLWithString:kPCTEndpointRandomMovie];
     
-    return [session dataTaskWithURL:URL completionHandler:^(NSData * _Nullable data,
-                                                            NSURLResponse * _Nullable response,
-                                                            NSError * _Nullable error) {
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
+    request.cachePolicy = NSURLRequestReloadIgnoringCacheData;
+    
+    return [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data,
+                                                                    NSURLResponse * _Nullable response,
+                                                                    NSError * _Nullable error) {
         id movie = [PCTMovie alloc];
         
         if (error == nil) {

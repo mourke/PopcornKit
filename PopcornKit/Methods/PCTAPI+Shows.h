@@ -66,11 +66,11 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Gets a random show from the API.
  
- @param callback    The closure called when the request completes. If the request completes successfully, a `PCTShow` object will be returned, however, if it fails, the underlying error will be returned.
+ @param callback    The closure called when the request completes. If the request completes successfully, a `PCTPartialShow` object will be returned, however, if it fails, the underlying error will be returned.
  
  @return    The request's `NSURLSessionTask` to be resumed.
  */
-+ (NSURLSessionDataTask *)getRandomShowWithCallback:(void (^)(NSError * _Nullable, PCTShow * _Nullable))callback NS_SWIFT_NAME(randomShow(_:));
++ (NSURLSessionDataTask *)getRandomShowWithCallback:(void (^)(NSError * _Nullable, PCTPartialShow * _Nullable))callback NS_SWIFT_NAME(randomShow(_:));
 
 
 @end

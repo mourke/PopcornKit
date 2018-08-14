@@ -96,15 +96,18 @@
     }];
 }
 
-+ (NSURLSessionDataTask *)getRandomShowWithCallback:(void (^)(NSError * _Nullable, PCTShow * _Nullable))callback {
++ (NSURLSessionDataTask *)getRandomShowWithCallback:(void (^)(NSError * _Nullable, PCTPartialShow * _Nullable))callback {
     NSURLSession *session = [NSURLSession sharedSession];
     
     NSURL *URL = [NSURL URLWithString:kPCTEndpointRandomShow];
     
-    return [session dataTaskWithURL:URL completionHandler:^(NSData * _Nullable data,
-                                                            NSURLResponse * _Nullable response,
-                                                            NSError * _Nullable error) {
-        id show = [PCTShow alloc];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
+    request.cachePolicy = NSURLRequestReloadIgnoringCacheData;
+    
+    return [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data,
+                                                                    NSURLResponse * _Nullable response,
+                                                                    NSError * _Nullable error) {
+        id show = [PCTPartialShow alloc];
         
         if (error == nil) {
             NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];

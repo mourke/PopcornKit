@@ -38,11 +38,10 @@
     
     if (self) {
         _imdbID = dictionary[@"imdb_id"];
-        _tmdbID = [dictionary[@"tmdb_id"] integerValue];
         _tvdbID = [dictionary[@"tvdb_id"] integerValue];
         _title = dictionary[@"title"];
-        _certification = dictionary[@"certification"];
-        _releaseDate = [NSDate dateWithTimeIntervalSince1970:[dictionary[@"released"] doubleValue]];
+        _releaseYear = dictionary[@"year"];
+        
         NSUInteger rating = [dictionary[@"rating"][@"percentage"] unsignedIntegerValue];
         
         id images = [PCTImages alloc];
@@ -51,12 +50,10 @@
             _images = [images initFromDictionary:dictionary[@"images"]];
         }
         
-        if (_imdbID != nil &&
-            !isnan(_tmdbID) &&
+        if ([_imdbID isKindOfClass:NSString.class] &&
             !isnan(_tvdbID) &&
-            _certification != nil &&
-            _title != nil &&
-            _releaseDate != nil &&
+            [_title isKindOfClass:NSString.class] &&
+            [_releaseYear isKindOfClass:NSString.class] &&
             !isnan(rating) &&
             _images != nil)
         {

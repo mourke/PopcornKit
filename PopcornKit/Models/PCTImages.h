@@ -47,10 +47,4 @@ NS_SWIFT_NAME(Images)
  */
 - (NSURL * _Nullable)backdropURLForSize:(PCTBackdropImageSize _Nonnull)size NS_SWIFT_NAME(backdrop(for:));
 
-/** Returns a background thumb URL, if available. */
-@property (strong, nonatomic, nullable, readonly) NSURL *thumbURL NS_SWIFT_NAME(thumb);
-
-/** Returns a Logo Image URL, if available. */
-@property (strong, nonatomic, nullable, readonly) NSURL *logoURL NS_SWIFT_NAME(logo);
-
 @end
