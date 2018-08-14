@@ -28,7 +28,27 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            testExecutionOrdering = "random">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4DAEEC9A2042F24900F62548"
+               BuildableName = "PopcornKit macOS Tests.xctest"
+               BlueprintName = "PopcornKit macOS Tests"
+               ReferencedContainer = "container:PopcornKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4DAEEBF62042C98E00F62548"
+            BuildableName = "PopcornKit.framework"
+            BlueprintName = "PopcornKit macOS"
+            ReferencedContainer = "container:PopcornKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
