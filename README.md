@@ -1,4 +1,4 @@
-# LastFMKit
+# PopcornKit
 Objective-C wrapper for the PopcornTime API
 
 [![Travis](https://travis-ci.org/mourke/PopcornKit.svg?branch=master)](https://travis-ci.org/mourke/PopcornKit)
